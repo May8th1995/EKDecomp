@@ -847,7 +847,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_DRILL_PECK] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_HIGH_CRITICAL,
         .power = 80,
         .type = TYPE_FLYING,
         .accuracy = 100,
@@ -1042,7 +1042,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_PETAL_DANCE] =
     {
-        .effect = EFFECT_RAMPAGE,
+        .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
         .power = 95,
         .type = TYPE_GRASS,
         .accuracy = 100,
@@ -1575,7 +1575,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_EGG_BOMB] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_DOUBLE_EDGE,
         .power = 120,
         .type = TYPE_NORMAL,
         .accuracy = 75,
@@ -1861,7 +1861,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SKY_ATTACK] =
     {
-        .effect = EFFECT_SKY_ATTACK,
+        .effect = EFFECT_DOUBLE_EDGE,
         .power = 120,
         .type = TYPE_FLYING,
         .accuracy = 90,
@@ -1939,7 +1939,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_PSYWAVE] =
     {
-        .effect = EFFECT_PSYWAVE,
+        .effect = EFFECT_LEVEL_DAMAGE,
         .power = 1,
         .type = TYPE_PSYCHIC,
         .accuracy = 80,
@@ -2186,7 +2186,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_THIEF] =
     {
-        .effect = EFFECT_THIEF,
+        .effect = EFFECT_HIT,
         .power = 40,
         .type = TYPE_DARK,
         .accuracy = 100,
@@ -2576,7 +2576,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_BONE_RUSH] =
     {
-        .effect = EFFECT_MULTI_HIT,
+        .effect = EFFECT_HIT,
         .power = 100,
         .type = TYPE_GROUND,
         .accuracy = 80,
@@ -2810,7 +2810,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_RETURN] =
     {
-        .effect = EFFECT_RETURN,
+        .effect = EFFECT_HIT,
         .power = 103,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -2836,7 +2836,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_FRUSTRATION] =
     {
-        .effect = EFFECT_FRUSTRATION,
+        .effect = EFFECT_HIT,
         .power = 103,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -3044,7 +3044,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_MORNING_SUN] =
     {
-        .effect = EFFECT_MORNING_SUN,
+        .effect = EFFECT_RESTORE_HP,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 0,
@@ -3057,7 +3057,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SYNTHESIS] =
     {
-        .effect = EFFECT_SYNTHESIS,
+        .effect = EFFECT_RESTORE_HP,
         .power = 0,
         .type = TYPE_GRASS,
         .accuracy = 0,
@@ -3070,7 +3070,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_MOONLIGHT] =
     {
-        .effect = EFFECT_MOONLIGHT,
+        .effect = EFFECT_RESTORE_HP,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 0,
@@ -3213,7 +3213,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SHADOW_BALL] =
     {
-        .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
+        .effect = EFFECT_DEFENSE_DOWN_HIT,
         .power = 80,
         .type = TYPE_GHOST,
         .accuracy = 100,
@@ -3317,7 +3317,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SPIT_UP] =
     {
-        .effect = EFFECT_SPIT_UP,
+        .effect = EFFECT_HIT,
         .power = 100,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -3330,7 +3330,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SWALLOW] =
     {
-        .effect = EFFECT_SWALLOW,
+        .effect = EFFECT_RESTORE_HP,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 0,
@@ -3382,7 +3382,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_FLATTER] =
     {
-        .effect = EFFECT_FLATTER,
+        .effect = EFFECT_CONFUSE,
         .power = 0,
         .type = TYPE_DARK,
         .accuracy = 100,
@@ -3499,7 +3499,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_TAUNT] =
     {
-        .effect = EFFECT_TAUNT,
+        .effect = EFFECT_SPLASH,
         .power = 0,
         .type = TYPE_DARK,
         .accuracy = 100,
@@ -3590,7 +3590,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SUPERPOWER] =
     {
-        .effect = EFFECT_SUPERPOWER,
+        .effect = EFFECT_DOUBLE_EDGE,
         .power = 120,
         .type = TYPE_FIGHTING,
         .accuracy = 100,
@@ -3655,7 +3655,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_YAWN] =
     {
-        .effect = EFFECT_YAWN,
+        .effect = EFFECT_SLEEP,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -3759,7 +3759,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SNATCH] =
     {
-        .effect = EFFECT_SNATCH,
+        .effect = EFFECT_SPLASH,
         .power = 0,
         .type = TYPE_DARK,
         .accuracy = 100,
@@ -3876,13 +3876,13 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_TEETER_DANCE] =
     {
-        .effect = EFFECT_TEETER_DANCE,
+        .effect = EFFECT_CONFUSE,
         .power = 0,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 32,
         .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_FOES_AND_ALLY,
+        .target = MOVE_TARGET_BOTH,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED,
     },
@@ -3954,7 +3954,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_HYPER_VOICE] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_DEFENSE_DOWN,
         .power = 120,
         .type = TYPE_NORMAL,
         .accuracy = 100,
@@ -4097,7 +4097,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_OVERHEAT] =
     {
-        .effect = EFFECT_OVERHEAT,
+        .effect = EFFECT_DOUBLE_EDGE,
         .power = 120,
         .type = TYPE_FIRE,
         .accuracy = 90,
@@ -4201,7 +4201,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_WATER_SPOUT] =
     {
-        .effect = EFFECT_ERUPTION,
+        .effect = EFFECT_RECOIL,
         .power = 150,
         .type = TYPE_WATER,
         .accuracy = 100,
@@ -4305,7 +4305,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_BULLET_SEED] =
     {
-        .effect = EFFECT_MULTI_HIT,
+        .effect = EFFECT_DOUBLE_HIT,
         .power = 25,
         .type = TYPE_GRASS,
         .accuracy = 100,
@@ -4383,7 +4383,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_DRAGON_CLAW] =
     {
-        .effect = EFFECT_HIT,
+        .effect = EFFECT_HIGH_CRITICAL,
         .power = 80,
         .type = TYPE_DRAGON,
         .accuracy = 100,
@@ -4448,7 +4448,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_POISON_TAIL] =
     {
-        .effect = EFFECT_POISON_TAIL,
+        .effect = EFFECT_POISON_FANG,
         .power = 120,
         .type = TYPE_POISON,
         .accuracy = 100,
@@ -4604,7 +4604,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_PSYCHO_BOOST] =
     {
-        .effect = EFFECT_OVERHEAT,
+        .effect = EFFECT_RECOIL,
         .power = 140,
         .type = TYPE_PSYCHIC,
         .accuracy = 90,
