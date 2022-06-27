@@ -1416,7 +1416,30 @@ static const u8 sDoomDesireDescription[] = _(
 static const u8 sPsychoBoostDescription[] = _(
     "Allows a full-power attack,\n"
     "but sharply lowers SP. ATK.");
-
+static const u8 sDrillRunDescription[] = _(
+    "High crit rate.");
+static const u8 sEarthPowerDescription[] = _(
+    "Defense drop chance");
+static const u8 sHeadSmashDescription[] = _(
+    "Recoil.");
+static const u8 sGunkShotDescription[] = _(
+    "Poison chance on hit.");
+static const u8 sWildChargeDescription[] = _(
+    "Recoil.");
+static const u8 sXScissorsDescription[] = _(
+    "High crit rate.");
+static const u8 sDracoMeteorDescription[] = _(
+    "Recoil.");
+static const u8 sForcePalmDescription[] = _(
+    "Paralyze chance on hit.");
+static const u8 sShadowSneakDescription[] = _(
+    "Priority.");
+static const u8 sAirSlashDescription[] = _(
+    "Flinch chance.");
+static const u8 sFlashCannonDescription[] = _(
+    "Defense drop chance");
+static const u8 sIceShardDescription[] = _(
+    "Priority");
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 {
@@ -1774,4 +1797,31 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_WATER_PULSE - 1] = sWaterPulseDescription,
     [MOVE_DOOM_DESIRE - 1] = sDoomDesireDescription,
     [MOVE_PSYCHO_BOOST - 1] = sPsychoBoostDescription,
+    [MOVE_WEATHER_BALL_WATER - 1] = sWeatherBallDescription,
+    [MOVE_WEATHER_BALL_FIRE - 1] = sWeatherBallDescription,
+    [MOVE_HIDDEN_POWER_PSYCHIC - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_FIRE - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_GRASS - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_ICE - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_GHOST - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_WATER - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_DARK - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_ROCK - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_ELECTRIC - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_GROUND - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_FIGHTING - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_FLYING - 1] = sHiddenPowerDescription,
+    [MOVE_HIDDEN_POWER_BUG - 1] = sHiddenPowerDescription,
+    [MOVE_DRILL_RUN - 1] = sDrillRunDescription,
+    [MOVE_EARTH_POWER - 1] = sEarthPowerDescription,
+    [MOVE_HEAD_SMASH - 1] = sHeadSmashDescription,
+    [MOVE_GUNK_SHOT - 1] = sGunkShotDescription,
+    [MOVE_WILD_CHARGE - 1] = sWildChargeDescription,
+    [MOVE_X_SCISSORS - 1] = sXScissorsDescription,
+    [MOVE_DRACO_METEOR - 1] = sDracoMeteorDescription,
+    [MOVE_FORCE_PALM - 1] = sForcePalmDescription,
+    [MOVE_SHADOW_SNEAK - 1] = sShadowSneakDescription,
+    [MOVE_AIR_SLASH - 1] = sAirSlashDescription,
+    [MOVE_FLASH_CANNON - 1] = sFlashCannonDescription,
+    [MOVE_ICE_SHARD - 1] = sIceShardDescription,
 };

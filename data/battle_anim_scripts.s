@@ -371,6 +371,33 @@ gBattleAnims_Moves::
 	.4byte Move_WATER_PULSE
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
+	.4byte Move_WEATHER_BALL
+	.4byte Move_WEATHER_BALL
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HIDDEN_POWER
+	.4byte Move_HORN_DRILL
+	.4byte Move_FISSURE
+	.4byte Move_SKULL_BASH
+	.4byte Move_SLUDGE
+	.4byte Move_SPARK
+	.4byte Move_FURY_CUTTER
+	.4byte Move_ERUPTION
+	.4byte Move_ARM_THRUST
+	.4byte Move_ASTONISH
+	.4byte Move_AIR_CUTTER
+	.4byte Move_METAL_SOUND
+	.4byte Move_ICICLE_SPEAR
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
