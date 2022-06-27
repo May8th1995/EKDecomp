@@ -1,0 +1,411 @@
++#BULBASAUR#, 45, 49, 49, 45, 65, 65, GRASS, POISON, 45, 64, - /, ????????, ????????, 31, 20, 70, 5, 1, 7, OVERGROW, OVERGROW, 0, 3, 0
++#IVYSAUR#, 60, 62, 63, 60, 80, 80, GRASS, POISON, 25, 141, - /, ????????, ????????, 31, 20, 70, 5, 1, 7, OVERGROW, OVERGROW, 0, 3, 0
++#VENUSAUR#, 80, 82, 83, 80, 100, 100, GRASS, POISON, 10, 208, - /, ????????, ????????, 31, 20, 70, 5, 1, 7, CHLOROPHYLL, OVERGROW, 0, 3, 0
++#CHARMANDER#, 39, 52, 43, 65, 60, 50, FIRE, FIRE, 45, 65, - /, ????????, ????????, 31, 20, 70, 5, 1, 14, BLAZE, -------, 0, 0, 0
++#CHARMELEON#, 58, 64, 58, 80, 80, 65, FIRE, FIRE, 25, 142, - +1 Sp Attack /, ????????, ????????, 31, 20, 70, 5, 1, 14, BLAZE, -------, 0, 0, 0
++#CHARIZARD#, 78, 84, 78, 100, 109, 85, FIRE, FLYING, 10, 209, - /, ????????, ????????, 31, 20, 70, 5, 1, 14, BLAZE, -------, 0, 0, 0
++#SQUIRTLE#, 44, 48, 65, 43, 50, 64, WATER, WATER, 45, 66, - /, ????????, ????????, 31, 20, 70, 5, 1, 2, TORRENT, -------, 0, 1, 0
++#WARTORTLE#, 59, 63, 80, 58, 65, 80, WATER, WATER, 25, 143, - /, ????????, ????????, 31, 20, 70, 5, 1, 2, TORRENT, -------, 0, 1, 0
++#BLASTOISE#, 79, 83, 100, 78, 85, 105, WATER, WATER, 10, 210, - /, ????????, ????????, 31, 20, 70, 5, 1, 2, TORRENT, -------, 0, 1, 0
++#CATERPIE#, 45, 30, 35, 45, 20, 20, BUG, BUG, 255, 53, - /, ????????, ????????, 127, 15, 70, 0, 3, 3, "SHIELD DUST", -------, 0, 3, 0
++#METAPOD#, 50, 20, 55, 30, 25, 25, BUG, BUG, 120, 72, - /, ????????, ????????, 127, 15, 70, 0, 3, 3, "SHED SKIN", -------, 0, 3, 0
++#BUTTERFREE#, 60, 45, 50, 70, 90, 80, BUG, FLYING, 45, 160, - /, ????????, SILVERPOWDER, 127, 15, 70, 0, 3, 3, COMPOUNDEYES, -------, 0, 8, 0
++#WEEDLE#, 40, 35, 30, 50, 20, 20, BUG, POISON, 255, 52, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, "SHIELD DUST", -------, 0, 5, 0
++#KAKUNA#, 45, 25, 50, 35, 25, 25, BUG, POISON, 120, 71, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, "SHED SKIN", -------, 0, 2, 0
++#BEEDRILL#, 65, 90, 40, 75, 45, 80, BUG, POISON, 45, 159, - /, ????????, "POISON BARB", 127, 15, 70, 4, 3, 3, SWARM, -------, 0, 2, 0
++#PIDGEY#, 40, 45, 40, 56, 35, 35, NORMAL, FLYING, 255, 55, - /, ????????, ????????, 127, 15, 70, 3, 4, 4, "KEEN EYE", -------, 0, 5, 0
++#PIDGEOTTO#, 63, 60, 55, 71, 50, 50, NORMAL, FLYING, 120, 113, - /, ????????, ????????, 127, 15, 70, 3, 4, 4, "KEEN EYE", -------, 0, 5, 0
++#PIDGEOT#, 83, 80, 75, 101, 70, 70, NORMAL, FLYING, 45, 172, - /, ????????, ????????, 127, 15, 70, 3, 4, 4, "EARLY BIRD", -------, 0, 5, 0
++#RATTATA#, 30, 56, 35, 72, 25, 35, NORMAL, NORMAL, 255, 57, - /, ????????, ????????, 127, 15, 70, 0, 5, 5, "RUN AWAY", "RUN AWAY", 0, 6, 0
++#RATICATE#, 55, 81, 60, 97, 50, 70, NORMAL, NORMAL, 127, 116, - /, ????????, ????????, 127, 15, 70, 0, 5, 5, GUTS, GUTS, 0, 5, 0
++#SPEAROW#, 40, 60, 30, 70, 31, 31, NORMAL, FLYING, 255, 58, - /, ????????, ????????, 127, 15, 70, 0, 4, 4, "KEEN EYE", -------, 0, 5, 0
++#FEAROW#, 65, 90, 65, 100, 61, 61, NORMAL, FLYING, 90, 162, - /, ????????, "SHARP BEAK", 127, 15, 70, 0, 4, 4, "EARLY BIRD", -------, 0, 5, 0
++#EKANS#, 35, 60, 44, 55, 40, 54, POISON, POISON, 255, 62, - /, ????????, ????????, 127, 20, 70, 0, 5, 14, INTIMIDATE, "SHED SKIN", 0, 6, 0
++#ARBOK#, 60, 95, 69, 80, 65, 79, POISON, POISON, 90, 147, - /, ????????, ????????, 127, 20, 70, 0, 5, 14, INTIMIDATE, "SHED SKIN", 0, 6, 0
++#PIKACHU#, 35, 55, 40, 90, 50, 50, ELECTR, ELECTR, 45, 82, - /, "ORAN BERRY", "LIGHT BALL", 127, 10, 70, 0, 5, 6, LIGHTNINGROD, -------, 6, 2, 0
++#RAICHU#, 60, 90, 55, 110, 90, 80, ELECTR, ELECTR, 75, 122, - /, ????????, "ORAN BERRY", 127, 10, 70, 0, 5, 6, LIGHTNINGROD, -------, 0, 2, 0
++#SANDSHREW#, 50, 75, 85, 40, 20, 30, GROUND, GROUND, 255, 93, - /, ????????, ????????, 127, 20, 70, 0, 5, 5, "SAND VEIL", -------, 0, 2, 0
++#SANDSLASH#, 75, 100, 110, 65, 45, 55, GROUND, GROUND, 90, 163, - /, ????????, ????????, 127, 20, 70, 0, 5, 5, "SAND VEIL", -------, 0, 2, 0
++#NIDORAN\sf#, 55, 47, 52, 41, 40, 40, POISON, POISON, 235, 59, - /, ????????, ????????, 254, 20, 70, 3, 1, 5, "POISON POINT", -------, 0, 1, 0
++#NIDORINA#, 70, 62, 67, 56, 55, 55, POISON, POISON, 120, 117, - /, ????????, ????????, 254, 20, 70, 3, 15, 15, "POISON POINT", -------, 0, 1, 0
++#NIDOQUEEN#, 90, 92, 87, 76, 75, 85, POISON, GROUND, 45, 194, - /, ????????, ????????, 254, 20, 70, 3, 15, 15, "POISON POINT", -------, 0, 1, 0
++#NIDORAN\sm#, 46, 57, 40, 50, 40, 40, POISON, POISON, 235, 60, - /, ????????, ????????, 0, 20, 70, 3, 1, 5, "POISON POINT", -------, 0, 6, 0
++#NIDORINO#, 61, 72, 57, 65, 55, 55, POISON, POISON, 120, 118, - /, ????????, ????????, 0, 20, 70, 3, 1, 5, "POISON POINT", -------, 0, 6, 0
++#NIDOKING#, 81, 102, 77, 85, 85, 75, POISON, GROUND, 45, 195, - /, ????????, ????????, 0, 20, 70, 3, 1, 5, "POISON POINT", -------, 0, 6, 0
++#CLEFAIRY#, 70, 45, 48, 35, 60, 65, NORMAL, NORMAL, 150, 68, - /, "LEPPA BERRY", "MOON STONE", 191, 10, 140, 4, 6, 6, "CUTE CHARM", -------, 0, 9, 0
++#CLEFABLE#, 95, 70, 73, 60, 95, 90, NORMAL, NORMAL, 25, 129, - /, "LEPPA BERRY", "MOON STONE", 191, 10, 140, 4, 6, 6, "CUTE CHARM", -------, 0, 9, 0
++#VULPIX#, 38, 41, 40, 65, 65, 65, FIRE, FIRE, 190, 63, - /, "RAWST BERRY", "RAWST BERRY", 191, 20, 70, 0, 5, 5, PRESSURE, -------, 0, 5, 0
++#NINETALES#, 73, 76, 75, 100, 100, 100, FIRE, FIRE, 75, 178, - /, "RAWST BERRY", "RAWST BERRY", 191, 20, 70, 0, 5, 5, PRESSURE, -------, 0, 2, 0
++#JIGGLYPUFF#, 115, 45, 20, 20, 45, 25, NORMAL, NORMAL, 170, 76, - /, ????????, ????????, 191, 10, 70, 4, 6, 6, "CUTE CHARM", -------, 0, 9, 0
++#WIGGLYTUFF#, 140, 80, 45, 45, 85, 50, NORMAL, NORMAL, 50, 109, - /, ????????, ????????, 191, 10, 70, 4, 6, 6, "CUTE CHARM", -------, 0, 9, 0
++#ZUBAT#, 40, 45, 35, 55, 30, 40, POISON, FLYING, 255, 54, - /, ????????, ????????, 127, 15, 70, 5, 4, 4, "INNER FOCUS", -------, 0, 6, 0
++#GOLBAT#, 75, 80, 70, 90, 65, 75, POISON, FLYING, 90, 171, - /, ????????, ????????, 127, 15, 70, 5, 4, 4, "INNER FOCUS", -------, 0, 6, 0
++#ODDISH#, 45, 50, 55, 30, 75, 65, GRASS, POISON, 255, 78, - /, ????????, ????????, 127, 20, 70, 3, 7, 7, CHLOROPHYLL, -------, 4, 1, 0
++#GLOOM#, 60, 65, 70, 40, 85, 75, GRASS, POISON, 120, 132, - /, ????????, ????????, 127, 20, 70, 3, 7, 7, CHLOROPHYLL, -------, 6, 1, 0
++#VILEPLUME#, 75, 80, 85, 50, 110, 90, GRASS, POISON, 34, 184, - /, ????????, ????????, 127, 20, 70, 3, 7, 7, CHLOROPHYLL, -------, 0, 0, 0
++#PARAS#, 35, 70, 55, 25, 45, 55, BUG, GRASS, 190, 70, - /, TINYMUSHROOM, "BIG MUSHROOM", 127, 20, 70, 4, 3, 7, "EFFECT SPORE", -------, 0, 0, 0
++#PARASECT#, 60, 95, 80, 30, 60, 80, BUG, GRASS, 75, 128, - /, TINYMUSHROOM, "BIG MUSHROOM", 127, 20, 70, 4, 3, 7, "EFFECT SPORE", -------, 0, 0, 0
++#VENONAT#, 60, 55, 50, 45, 40, 55, BUG, POISON, 190, 75, - /, ????????, ????????, 127, 20, 70, 3, 3, 3, COMPOUNDEYES, "SHIELD DUST", 0, 6, 0
++#VENOMOTH#, 70, 65, 60, 90, 90, 75, BUG, POISON, 75, 138, - /, ????????, ????????, 127, 20, 70, 3, 3, 3, COMPOUNDEYES, "SHIELD DUST", 0, 6, 0
++#DIGLETT#, 10, 55, 25, 95, 35, 45, GROUND, GROUND, 150, 81, - /, ????????, ????????, 127, 20, 70, 5, 5, 5, "ARENA TRAP", "SAND VEIL", 0, 5, 0
++#DUGTRIO#, 35, 100, 50, 120, 50, 70, GROUND, GROUND, 8, 153, - /, ????????, ????????, 127, 20, 70, 5, 5, 5, "ARENA TRAP", "SAND VEIL", 0, 5, 0
++#MEOWTH#, 40, 45, 35, 90, 40, 40, NORMAL, NORMAL, 255, 69, - /, ????????, ????????, 127, 20, 70, 0, 5, 5, LIMBER, -------, 0, 2, 0
++#PERSIAN#, 65, 70, 60, 115, 65, 65, NORMAL, NORMAL, 90, 148, - /, ????????, ????????, 127, 20, 70, 0, 5, 5, LIMBER, -------, 0, 2, 0
++#PSYDUCK#, 50, 52, 48, 55, 65, 50, WATER, WATER, 190, 80, - /, ????????, ????????, 127, 20, 70, 0, 2, 5, "SWIFT SWIM", OBLIVIOUS, 6, 2, 0
++#GOLDUCK#, 80, 82, 78, 85, 95, 80, WATER, WATER, 75, 174, - /, ????????, ????????, 127, 20, 70, 0, 2, 5, "SWIFT SWIM", OBLIVIOUS, 8, 1, 0
++#MANKEY#, 40, 80, 35, 70, 35, 45, FIGHT, FIGHT, 190, 74, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, "VITAL SPIRIT", -------, 0, 5, 0
++#PRIMEAPE#, 65, 105, 60, 95, 60, 70, FIGHT, FIGHT, 75, 149, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, "VITAL SPIRIT", -------, 0, 5, 0
++#GROWLITHE#, 55, 70, 45, 60, 70, 50, FIRE, FIRE, 90, 91, - /, "RAWST BERRY", "RAWST BERRY", 63, 20, 70, 5, 5, 5, INTIMIDATE, "RUN AWAY", 0, 5, 0
++#ARCANINE#, 90, 110, 80, 95, 100, 80, FIRE, FIRE, 15, 213, - /, "RAWST BERRY", "RAWST BERRY", 63, 20, 70, 5, 5, 5, INTIMIDATE, BLAZE, 0, 5, 0
++#POLIWAG#, 40, 50, 40, 90, 40, 40, WATER, WATER, 255, 77, - /, ????????, ????????, 127, 20, 70, 3, 2, 2, "SWIFT SWIM", "SWIFT SWIM", 0, 129, 0
++#POLIWHIRL#, 65, 65, 65, 90, 50, 50, WATER, WATER, 120, 131, - /, ????????, ????????, 127, 20, 70, 3, 2, 2, "SWIFT SWIM", "SWIFT SWIM", 0, 129, 0
++#POLIWRATH#, 90, 95, 95, 70, 70, 90, WATER, FIGHT, 45, 185, - /, ????????, "NET BALL", 127, 20, 70, 3, 2, 2, "SWIFT SWIM", "SWIFT SWIM", 0, 129, 0
++#ABRA#, 25, 20, 15, 90, 105, 55, PSYCHC, PSYCHC, 45, 73, - /, ????????, TWISTEDSPOON, 63, 20, 70, 5, 8, 8, SYNCHRONIZE, "INNER FOCUS", 0, 5, 0
++#KADABRA#, 40, 35, 30, 105, 120, 70, PSYCHC, PSYCHC, 25, 145, - /, ????????, TWISTEDSPOON, 63, 20, 70, 5, 8, 8, SYNCHRONIZE, "INNER FOCUS", 0, 5, 0
++#ALAKAZAM#, 55, 50, 45, 120, 135, 95, PSYCHC, PSYCHC, 10, 186, - /, ????????, TWISTEDSPOON, 63, 20, 70, 5, 8, 8, SYNCHRONIZE, "INNER FOCUS", 0, 5, 0
++#MACHOP#, 70, 80, 50, 35, 35, 35, FIGHT, FIGHT, 180, 88, - /, ????????, ????????, 63, 20, 70, 5, 8, 8, GUTS, -------, 0, 7, 0
++#MACHOKE#, 80, 100, 70, 45, 50, 60, FIGHT, FIGHT, 90, 146, - /, ????????, ????????, 63, 20, 70, 5, 8, 8, GUTS, -------, 0, 7, 0
++#MACHAMP#, 90, 130, 80, 55, 65, 85, FIGHT, FIGHT, 5, 193, - /, ????????, ????????, 63, 20, 70, 5, 8, 8, GUTS, -------, 0, 7, 0
++#BELLSPROUT#, 50, 75, 35, 40, 70, 30, GRASS, POISON, 255, 84, - /, ????????, ????????, 127, 20, 70, 3, 7, 7, CHLOROPHYLL, -------, 0, 3, 0
++#WEEPINBELL#, 65, 90, 50, 55, 85, 45, GRASS, POISON, 120, 151, - /, ????????, ????????, 127, 20, 70, 3, 7, 7, CHLOROPHYLL, -------, 0, 3, 0
++#VICTREEBEL#, 80, 105, 65, 70, 100, 70, GRASS, POISON, 45, 191, - /, ????????, ????????, 127, 20, 70, 3, 7, 7, CHLOROPHYLL, -------, 0, 3, 0
++#TENTACOOL#, 40, 40, 35, 70, 50, 100, WATER, POISON, 190, 105, - /, ????????, ????????, 127, 20, 70, 5, 9, 9, "CLEAR BODY", "LIQUID OOZE", 0, 1, 0
++#TENTACRUEL#, 80, 70, 65, 100, 100, 120, WATER, POISON, 60, 205, - /, ????????, ????????, 127, 20, 70, 5, 9, 9, "CLEAR BODY", "LIQUID OOZE", 0, 1, 0
++#GEODUDE#, 40, 80, 100, 20, 30, 30, ROCK, GROUND, 255, 86, - /, ????????, EVERSTONE, 127, 15, 70, 3, 10, 10, "ROCK HEAD", STURDY, 4, 5, 0
++#GRAVELER#, 55, 95, 115, 35, 45, 45, ROCK, GROUND, 120, 134, - /, ????????, EVERSTONE, 127, 15, 70, 3, 10, 10, "ROCK HEAD", STURDY, 0, 5, 0
++#GOLEM#, 80, 120, 130, 45, 55, 65, ROCK, GROUND, 45, 177, - /, ????????, EVERSTONE, 127, 15, 70, 3, 10, 10, "ROCK HEAD", STURDY, 0, 5, 0
++#PONYTA#, 50, 85, 55, 90, 65, 65, FIRE, FIRE, 190, 152, - /, ????????, ????????, 127, 20, 70, 0, 5, 5, "FLAME BODY", "RUN AWAY", 0, 2, 0
++#RAPIDASH#, 65, 100, 70, 105, 80, 80, FIRE, FIRE, 60, 192, - /, ????????, ????????, 127, 20, 70, 0, 5, 5, "FLAME BODY", "RUN AWAY", 0, 2, 0
++#SLOWPOKE#, 90, 65, 65, 15, 40, 40, WATER, PSYCHC, 60, 99, - /, ????????, "KING'S ROCK", 127, 20, 70, 3, 1, 2, OBLIVIOUS, "OWN TEMPO", 0, 9, 0
++#SLOWBRO#, 95, 75, 110, 30, 100, 80, WATER, PSYCHC, 25, 164, - /, ????????, PEARL, 127, 20, 70, 3, 1, 2, "SHELL ARMOR", "OWN TEMPO", 0, 9, 0
++#MAGNEMITE#, 25, 35, 70, 45, 95, 55, ELECTR, STEEL, 190, 89, - /, ????????, "METAL COAT", 255, 20, 70, 0, 10, 10, "MAGNET PULL", STURDY, 0, 7, 0
++#MAGNETON#, 50, 60, 95, 70, 120, 70, ELECTR, STEEL, 60, 161, - /, ????????, "METAL COAT", 255, 20, 70, 0, 10, 10, "MAGNET PULL", STURDY, 0, 7, 0
++#FARFETCH'D#, 52, 90, 55, 60, 58, 62, NORMAL, FLYING, 145, 94, - /, STICK, STICK, 127, 20, 70, 4, 4, 5, "KEEN EYE", "INNER FOCUS", 0, 5, 0
++#DODUO#, 35, 85, 45, 75, 35, 35, NORMAL, FLYING, 45, 96, - /, ????????, "SHARP BEAK", 127, 20, 70, 5, 4, 4, "EARLY BIRD", "RUN AWAY", 8, 5, 0
++#DODRIO#, 60, 110, 70, 110, 60, 60, NORMAL, FLYING, 10, 158, - /, ????????, "SHARP BEAK", 127, 20, 70, 5, 4, 4, "EARLY BIRD", "RUN AWAY", 10, 5, 0
++#SEEL#, 65, 45, 55, 45, 45, 70, WATER, WATER, 190, 100, - /, ????????, ????????, 127, 20, 70, 0, 2, 5, "THICK FAT", "THICK FAT", 0, 8, 0
++#DEWGONG#, 90, 70, 80, 70, 95, 95, WATER, ICE, 75, 176, - /, ????????, ????????, 127, 20, 70, 0, 2, 5, "SWIFT SWIM", "THICK FAT", 0, 8, 0
++#GRIMER#, 80, 80, 50, 25, 40, 50, POISON, POISON, 190, 90, - /, ????????, NUGGET, 127, 20, 70, 0, 11, 11, "POISON POINT", "STICKY HOLD", 0, 6, 0
++#MUK#, 105, 105, 75, 50, 65, 100, POISON, POISON, 75, 157, - /, ????????, NUGGET, 127, 20, 70, 0, 11, 11, "POISON POINT", "STICKY HOLD", 0, 6, 0
++#SHELLDER#, 30, 65, 100, 40, 45, 25, WATER, WATER, 190, 97, - /, PEARL, "BIG PEARL", 127, 20, 70, 5, 9, 9, "SHELL ARMOR", -------, 0, 6, 0
++#CLOYSTER#, 50, 95, 180, 70, 85, 70, WATER, ICE, 60, 203, - /, PEARL, "BIG PEARL", 127, 20, 70, 5, 9, 9, "SHELL ARMOR", -------, 0, 6, 0
++#GASTLY#, 30, 35, 30, 80, 100, 35, GHOST, POISON, 45, 95, - /, ????????, ????????, 127, 20, 70, 5, 11, 11, LEVITATE, -------, 0, 6, 0
++#HAUNTER#, 45, 50, 45, 95, 115, 55, GHOST, POISON, 25, 126, - /, ????????, ????????, 127, 20, 70, 5, 11, 11, LEVITATE, -------, 0, 6, 0
++#GENGAR#, 60, 75, 60, 110, 130, 75, GHOST, POISON, 10, 190, - /, ????????, ????????, 127, 20, 70, 5, 11, 11, LEVITATE, -------, 0, 6, 0
++#ONIX#, 35, 45, 160, 70, 30, 45, ROCK, GROUND, 45, 108, - /, ????????, ????????, 127, 25, 70, 5, 10, 10, "ROCK HEAD", STURDY, 0, 7, 0
++#DROWZEE#, 60, 48, 45, 42, 43, 90, PSYCHC, PSYCHC, 190, 102, - /, ????????, ????????, 127, 20, 70, 5, 8, 8, INSOMNIA, -------, 0, 2, 0
++#HYPNO#, 85, 73, 70, 67, 115, 115, PSYCHC, PSYCHC, 75, 165, - /, ????????, ????????, 127, 20, 70, 5, 8, 8, INSOMNIA, -------, 0, 2, 0
++#KRABBY#, 30, 105, 90, 50, 25, 25, WATER, WATER, 225, 115, - /, ????????, ????????, 127, 20, 70, 0, 9, 9, "HYPER CUTTER", "SHELL ARMOR", 0, 0, 0
++#KINGLER#, 55, 130, 115, 75, 50, 50, WATER, WATER, 60, 206, - /, ????????, ????????, 127, 20, 70, 0, 9, 9, "HYPER CUTTER", "SHELL ARMOR", 0, 128, 0
++#VOLTORB#, 40, 30, 50, 100, 55, 55, ELECTR, ELECTR, 190, 103, - /, ????????, ????????, 255, 20, 70, 5, 10, 10, STATIC, STATIC, 0, 0, 0
++#ELECTRODE#, 60, 50, 70, 150, 80, 80, ELECTR, ELECTR, 60, 150, - /, ????????, ????????, 255, 20, 70, 5, 10, 10, STATIC, STATIC, 0, 0, 0
++#EXEGGCUTE#, 60, 40, 80, 40, 60, 45, GRASS, PSYCHC, 90, 98, - /, ????????, ????????, 127, 20, 70, 5, 7, 7, CHLOROPHYLL, -------, 0, 9, 0
++#EXEGGUTOR#, 95, 95, 85, 55, 125, 85, GRASS, PSYCHC, 45, 212, - /, ????????, ????????, 127, 20, 70, 5, 7, 7, CHLOROPHYLL, -------, 0, 2, 0
++#CUBONE#, 50, 50, 95, 35, 40, 50, GROUND, GROUND, 190, 87, - /, ????????, "THICK CLUB", 127, 20, 70, 5, 1, 1, LIGHTNINGROD, "ROCK HEAD", 0, 5, 0
++#MAROWAK#, 60, 90, 110, 45, 50, 80, GROUND, GROUND, 75, 124, - /, ????????, "THICK CLUB", 127, 20, 70, 5, 1, 1, LIGHTNINGROD, "ROCK HEAD", 0, 5, 0
++#HITMONLEE#, 50, 120, 53, 87, 35, 110, FIGHT, FIGHT, 45, 139, - /, ????????, ????????, 0, 25, 70, 0, 8, 8, LIMBER, -------, 0, 5, 0
++#HITMONCHAN#, 50, 105, 79, 76, 35, 110, FIGHT, FIGHT, 45, 140, - /, ????????, ????????, 0, 25, 70, 0, 8, 8, GUTS, -------, 0, 5, 0
++#LICKITUNG#, 90, 55, 75, 30, 60, 75, NORMAL, NORMAL, 65, 127, - /, ????????, ????????, 127, 20, 70, 0, 1, 1, "OWN TEMPO", OBLIVIOUS, 0, 9, 0
++#KOFFING#, 40, 65, 95, 35, 60, 45, POISON, POISON, 45, 114, - /, ????????, "SMOKE BALL", 127, 20, 70, 5, 11, 11, LEVITATE, -------, 0, 6, 0
++#WEEZING#, 65, 90, 120, 60, 85, 85, POISON, POISON, 25, 173, - /, ????????, "SMOKE BALL", 127, 20, 70, 5, 11, 11, LEVITATE, -------, 0, 6, 0
++#RHYHORN#, 80, 85, 95, 25, 30, 30, GROUND, ROCK, 45, 135, - /, ????????, ????????, 127, 20, 70, 5, 1, 5, LIGHTNINGROD, "ROCK HEAD", 4, 7, 0
++#RHYDON#, 105, 130, 120, 40, 45, 45, GROUND, ROCK, 15, 204, - /, ????????, ????????, 127, 20, 70, 5, 1, 5, LIGHTNINGROD, "ROCK HEAD", 0, 7, 0
++#CHANSEY#, 250, 5, 25, 50, 35, 105, NORMAL, NORMAL, 3, 1, - /, ????????, "LUCKY EGG", 254, 40, 0, 5, 6, 6, "NATURAL CURE", "SERENE GRACE", 0, 9, 0
++#TANGELA#, 65, 55, 115, 60, 100, 100, GRASS, GRASS, 45, 166, - /, ????????, ????????, 127, 20, 70, 3, 7, 7, CHLOROPHYLL, -------, 0, 1, 0
++#KANGASKHAN#, 105, 95, 80, 90, 40, 80, NORMAL, NORMAL, 45, 175, - /, ????????, ????????, 254, 20, 70, 3, 1, 1, "EARLY BIRD", -------, 0, 5, 0
++#HORSEA#, 30, 40, 70, 60, 70, 25, WATER, WATER, 225, 83, - /, ????????, "DRAGON SCALE", 127, 20, 70, 2, 2, 14, "SWIFT SWIM", -------, 0, 1, 0
++#SEADRA#, 55, 65, 95, 85, 95, 45, WATER, WATER, 75, 155, - /, ????????, "DRAGON SCALE", 127, 20, 70, 2, 2, 14, "POISON POINT", -------, 0, 1, 0
++#GOLDEEN#, 45, 67, 60, 63, 35, 50, WATER, WATER, 225, 111, - /, ????????, ????????, 127, 20, 70, 4, 12, 12, "SWIFT SWIM", "WATER VEIL", 4, 0, 0
++#SEAKING#, 80, 92, 65, 68, 65, 80, WATER, WATER, 60, 170, - /, ????????, ????????, 127, 20, 70, 4, 12, 12, "SWIFT SWIM", "WATER VEIL", 6, 0, 0
++#STARYU#, 30, 45, 55, 85, 70, 55, WATER, WATER, 35, 106, - /, STARDUST, "STAR PIECE", 255, 20, 70, 5, 9, 9, "NATURAL CURE", ILLUMINATE, 0, 5, 0
++#STARMIE#, 60, 75, 85, 115, 100, 100, WATER, PSYCHC, 15, 207, - /, STARDUST, "STAR PIECE", 255, 20, 70, 5, 9, 9, "NATURAL CURE", ILLUMINATE, 0, 6, 0
++#"MR. MIME"#, 40, 45, 65, 90, 100, 120, PSYCHC, PSYCHC, 45, 136, - /, ????????, "LEPPA BERRY", 127, 25, 70, 0, 8, 8, "OWN TEMPO", -------, 0, 9, 0
++#SCYTHER#, 70, 110, 80, 105, 55, 80, BUG, FLYING, 45, 187, - /, ????????, ????????, 127, 25, 70, 0, 3, 3, SWARM, -------, 0, 3, 0
++#JYNX#, 65, 50, 35, 95, 115, 95, ICE, PSYCHC, 15, 137, - /, "ASPEAR BERRY", "ASPEAR BERRY", 254, 25, 70, 3, 8, 8, OBLIVIOUS, -------, 0, 0, 0
++#ELECTABUZZ#, 65, 83, 57, 105, 95, 85, ELECTR, ELECTR, 45, 156, - /, ????????, ????????, 63, 25, 70, 3, 8, 8, STATIC, -------, 0, 130, 0
++#MAGMAR#, 65, 95, 57, 93, 100, 85, FIRE, FIRE, 45, 167, - /, "RAWST BERRY", "RAWST BERRY", 63, 25, 70, 0, 8, 8, "FLAME BODY", -------, 0, 0, 0
++#PINSIR#, 65, 125, 100, 85, 55, 70, BUG, BUG, 45, 200, - /, ????????, ????????, 127, 25, 70, 5, 3, 3, INTIMIDATE, "HYPER CUTTER", 8, 5, 0
++#TAUROS#, 75, 100, 95, 110, 40, 70, NORMAL, NORMAL, 10, 211, - /, ????????, ????????, 0, 20, 70, 5, 5, 5, INTIMIDATE, -------, 0, 5, 0
++#MAGIKARP#, 20, 10, 55, 80, 15, 20, WATER, WATER, 100, 20, - /, ????????, ????????, 127, 5, 70, 5, 12, 14, "SWIFT SWIM", -------, 4, 0, 0
++#GYARADOS#, 95, 125, 79, 81, 60, 100, WATER, FLYING, 10, 214, - /, ????????, ????????, 127, 5, 70, 5, 12, 14, INTIMIDATE, -------, 0, 1, 0
++#LAPRAS#, 130, 85, 80, 60, 95, 105, WATER, ICE, 3, 219, - /, ????????, ????????, 127, 120, 70, 2, 1, 2, "SHELL ARMOR", "SHELL ARMOR", 150, 1, 0
++#DITTO#, 100, 100, 100, 100, 100, 100, NORMAL, NORMAL, 35, 61, - /, "BERRY JUICE", "METAL POWDER", 255, 20, 70, 5, 13, 13, "SHADOW TAG", -------, 0, 6, 0
++#EEVEE#, 55, 55, 50, 55, 45, 65, NORMAL, NORMAL, 45, 92, - /, ????????, ????????, 31, 35, 70, 5, 5, 5, "RUN AWAY", -------, 0, 5, 0
++#VAPOREON#, 130, 65, 60, 65, 110, 95, WATER, WATER, 3, 196, - /, ????????, ????????, 31, 35, 70, 5, 5, 5, "SWIFT SWIM", -------, 0, 1, 0
++#JOLTEON#, 65, 65, 60, 130, 110, 95, ELECTR, ELECTR, 3, 197, - /, ????????, ????????, 31, 35, 70, 5, 5, 5, STATIC, -------, 0, 2, 0
++#FLAREON#, 65, 130, 60, 65, 95, 110, FIRE, FIRE, 45, 198, - /, ????????, ????????, 31, 35, 70, 5, 5, 5, "FLAME BODY", -------, 0, 0, 0
++#PORYGON#, 65, 60, 70, 40, 85, 75, NORMAL, NORMAL, 45, 130, - /, ????????, ????????, 255, 20, 70, 5, 10, 10, TRACE, -------, 0, 9, 0
++#OMANYTE#, 35, 40, 100, 35, 90, 55, ROCK, WATER, 45, 120, - /, ????????, ????????, 31, 30, 70, 3, 2, 9, "SWIFT SWIM", "SHELL ARMOR", 0, 1, 0
++#OMASTAR#, 70, 60, 125, 55, 115, 70, ROCK, WATER, 45, 199, - /, ????????, ????????, 31, 30, 70, 3, 2, 9, "SWIFT SWIM", "SHELL ARMOR", 0, 1, 0
++#KABUTO#, 30, 80, 90, 55, 55, 45, ROCK, WATER, 45, 119, - /, ????????, ????????, 31, 30, 70, 0, 2, 9, "SWIFT SWIM", "BATTLE ARMOR", 0, 5, 0
++#KABUTOPS#, 60, 115, 105, 80, 65, 70, ROCK, WATER, 45, 201, - /, ????????, ????????, 31, 30, 70, 0, 2, 9, "SWIFT SWIM", "BATTLE ARMOR", 0, 5, 0
++#AERODACTYL#, 80, 105, 65, 130, 60, 75, ROCK, FLYING, 6, 202, - /, ????????, ????????, 31, 35, 70, 5, 4, 4, "ROCK HEAD", PRESSURE, 0, 6, 0
++#SNORLAX#, 160, 110, 65, 30, 65, 110, NORMAL, NORMAL, 3, 154, - /, "CHESTO BERRY", "SITRUS BERRY", 31, 120, 70, 2, 1, 1, GUTS, "THICK FAT", 0, 4, 0
++#ARTICUNO#, 90, 85, 100, 85, 115, 125, ICE, FLYING, 3, 215, - /, ????????, ????????, 255, 80, 35, 5, 15, 15, PRESSURE, -------, 0, 1, 0
++#ZAPDOS#, 90, 95, 90, 105, 125, 95, ELECTR, FLYING, 3, 216, - /, ????????, ????????, 255, 80, 35, 5, 15, 15, PRESSURE, -------, 0, 2, 0
++#MOLTRES#, 90, 120, 90, 90, 125, 85, FIRE, FLYING, 3, 217, - /, ????????, ????????, 255, 80, 35, 5, 15, 15, PRESSURE, -------, 0, 2, 0
++#DRATINI#, 41, 64, 45, 50, 50, 50, DRAGON, DRAGON, 3, 67, - /, ????????, "DRAGON SCALE", 127, 40, 35, 2, 2, 14, "SHED SKIN", "SHED SKIN", 0, 1, 0
++#DRAGONAIR#, 61, 84, 65, 70, 70, 70, DRAGON, DRAGON, 2, 144, - /, ????????, "DRAGON SCALE", 127, 40, 35, 2, 2, 14, "SHED SKIN", "SHED SKIN", 0, 1, 0
++#DRAGONITE#, 91, 134, 95, 80, 100, 100, DRAGON, FLYING, 1, 218, - /, ????????, "DRAGON SCALE", 127, 40, 35, 2, 2, 14, "THICK FAT", "SHED SKIN", 0, 5, 0
++#MEWTWO#, 106, 110, 90, 130, 154, 90, PSYCHC, PSYCHC, 1, 255, - /, "LUM BERRY", "LUM BERRY", 255, 120, 0, 5, 15, 15, PRESSURE, "RUN AWAY", 0, 6, 0
++#MEW#, 100, 100, 100, 100, 100, 100, PSYCHC, PSYCHC, 3, 64, - /, "LUM BERRY", "LUM BERRY", 255, 120, 100, 3, 15, 15, SYNCHRONIZE, -------, 0, 9, 0
++#CHIKORITA#, 45, 49, 65, 45, 49, 65, GRASS, GRASS, 45, 64, - /, ????????, ????????, 31, 20, 70, 5, 1, 7, OVERGROW, OVERGROW, 0, 3, 0
++#BAYLEEF#, 60, 62, 80, 60, 63, 80, GRASS, GRASS, 25, 141, - /, ????????, ????????, 31, 20, 70, 5, 1, 7, OVERGROW, OVERGROW, 0, 3, 0
++#MEGANIUM#, 80, 82, 100, 80, 83, 100, GRASS, GRASS, 5, 208, - /, ????????, ????????, 31, 20, 70, 5, 1, 7, "THICK FAT", OVERGROW, 0, 3, 0
++#CYNDAQUIL#, 39, 52, 43, 65, 60, 50, FIRE, FIRE, 45, 65, - /, ????????, ????????, 31, 20, 70, 5, 5, 5, BLAZE, -------, 0, 2, 0
++#QUILAVA#, 58, 64, 58, 80, 80, 65, FIRE, FIRE, 25, 142, - /, ????????, ????????, 31, 20, 70, 5, 5, 5, BLAZE, -------, 0, 2, 0
++#TYPHLOSION#, 78, 84, 78, 100, 109, 85, FIRE, FIRE, 10, 209, - /, ????????, ????????, 31, 20, 70, 5, 5, 5, BLAZE, -------, 0, 2, 0
++#TOTODILE#, 50, 65, 64, 43, 44, 48, WATER, WATER, 45, 66, - /, ????????, ????????, 31, 20, 70, 5, 1, 2, TORRENT, TORRENT, 0, 1, 0
++#CROCONAW#, 65, 80, 80, 58, 59, 63, WATER, WATER, 25, 143, - /, ????????, ????????, 31, 20, 70, 5, 1, 2, TORRENT, TORRENT, 0, 129, 0
++#FERALIGATR#, 85, 105, 100, 78, 79, 83, WATER, WATER, 10, 210, - /, ????????, ????????, 31, 20, 70, 5, 1, 2, "BATTLE ARMOR", TORRENT, 0, 1, 0
++#SENTRET#, 35, 46, 34, 20, 35, 45, NORMAL, NORMAL, 255, 57, - /, ????????, "ORAN BERRY", 127, 15, 70, 4, 5, 5, "EARLY BIRD", "KEEN EYE", 0, 5, 0
++#FURRET#, 85, 76, 64, 90, 45, 55, NORMAL, NORMAL, 90, 116, - /, "ORAN BERRY", "SITRUS BERRY", 127, 15, 70, 4, 5, 5, "EARLY BIRD", "KEEN EYE", 0, 5, 0
++#HOOTHOOT#, 60, 30, 30, 50, 36, 56, NORMAL, FLYING, 255, 58, - /, ????????, ????????, 127, 15, 70, 4, 4, 4, INSOMNIA, "KEEN EYE", 0, 5, 0
++#NOCTOWL#, 100, 50, 50, 70, 86, 96, NORMAL, FLYING, 90, 162, - /, ????????, ????????, 127, 15, 70, 4, 4, 4, INSOMNIA, "KEEN EYE", 0, 5, 0
++#LEDYBA#, 40, 20, 30, 55, 40, 80, BUG, FLYING, 255, 54, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, "EARLY BIRD", SWARM, 0, 0, 0
++#LEDIAN#, 55, 35, 50, 85, 55, 110, BUG, FLYING, 90, 134, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, "EARLY BIRD", SWARM, 0, 0, 0
++#SPINARAK#, 40, 60, 40, 30, 40, 40, BUG, POISON, 255, 54, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, INSOMNIA, SWARM, 0, 3, 0
++#ARIADOS#, 70, 90, 70, 40, 60, 70, BUG, POISON, 90, 134, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, INSOMNIA, SWARM, 0, 0, 0
++#CROBAT#, 85, 90, 80, 130, 70, 80, POISON, FLYING, 90, 204, - /, ????????, ????????, 127, 15, 70, 5, 4, 4, "INNER FOCUS", -------, 0, 6, 0
++#CHINCHOU#, 75, 38, 38, 67, 56, 56, WATER, ELECTR, 60, 90, - /, ????????, "YELLOW SHARD", 127, 20, 70, 5, 12, 12, "VOLT ABSORB", ILLUMINATE, 0, 1, 0
++#LANTURN#, 125, 50, 66, 67, 76, 76, WATER, ELECTR, 10, 156, - /, ????????, "YELLOW SHARD", 127, 20, 70, 5, 12, 12, "VOLT ABSORB", ILLUMINATE, 0, 1, 0
++#PICHU#, 20, 40, 15, 60, 35, 35, ELECTR, ELECTR, 190, 42, - /, ????????, "ORAN BERRY", 127, 10, 70, 0, 15, 15, STATIC, -------, 0, 2, 0
++#CLEFFA#, 50, 25, 28, 15, 45, 55, NORMAL, NORMAL, 150, 37, - /, "LEPPA BERRY", "MOON STONE", 191, 10, 140, 4, 15, 15, "CUTE CHARM", -------, 0, 9, 0
++#IGGLYBUFF#, 90, 30, 15, 15, 40, 20, NORMAL, NORMAL, 170, 39, - /, ????????, ????????, 191, 10, 70, 4, 15, 15, "CUTE CHARM", -------, 0, 137, 0
++#TOGEPI#, 35, 20, 65, 20, 40, 65, NORMAL, NORMAL, 190, 74, - /, ????????, ????????, 31, 10, 70, 4, 15, 15, "SERENE GRACE", HUSTLE, 0, 8, 0
++#TOGETIC#, 55, 40, 85, 40, 80, 105, NORMAL, FLYING, 75, 114, - /, ????????, ????????, 31, 10, 70, 4, 4, 6, "SERENE GRACE", HUSTLE, 0, 8, 0
++#NATU#, 40, 50, 45, 70, 70, 45, PSYCHC, FLYING, 190, 73, - /, ????????, ????????, 127, 20, 70, 0, 4, 4, "EARLY BIRD", SYNCHRONIZE, 6, 3, 0
++#XATU#, 65, 75, 70, 95, 95, 70, PSYCHC, FLYING, 75, 171, - /, ????????, ????????, 127, 20, 70, 0, 4, 4, "EARLY BIRD", SYNCHRONIZE, 8, 3, 0
++#MAREEP#, 55, 40, 40, 35, 65, 45, ELECTR, ELECTR, 140, 59, - /, ????????, ????????, 127, 20, 70, 5, 1, 5, STATIC, -------, 0, 8, 0
++#FLAAFFY#, 70, 55, 55, 45, 80, 60, ELECTR, ELECTR, 55, 117, - /, ????????, ????????, 127, 20, 70, 5, 1, 5, STATIC, -------, 0, 9, 0
++#AMPHAROS#, 90, 75, 85, 55, 115, 90, ELECTR, ELECTR, 25, 194, - /, ????????, ????????, 127, 20, 70, 5, 1, 5, STATIC, -------, 0, 2, 0
++#BELLOSSOM#, 75, 80, 95, 50, 90, 100, GRASS, GRASS, 45, 184, - /, ????????, ????????, 127, 20, 70, 3, 7, 7, CHLOROPHYLL, -------, 0, 3, 0
++#MARILL#, 70, 20, 50, 40, 20, 50, WATER, WATER, 190, 58, - /, ????????, ????????, 191, 10, 70, 3, 2, 6, "HUGE POWER", "THICK FAT", 0, 1, 0
++#AZUMARILL#, 100, 60, 80, 50, 60, 80, WATER, WATER, 35, 153, - /, ????????, ????????, 127, 10, 70, 3, 2, 6, "HUGE POWER", "THICK FAT", 0, 1, 0
++#SUDOWOODO#, 70, 100, 115, 30, 30, 65, ROCK, ROCK, 65, 135, - /, ????????, ????????, 127, 20, 70, 0, 10, 10, "ROCK HEAD", STURDY, 0, 5, 0
++#POLITOED#, 90, 75, 75, 70, 90, 100, WATER, WATER, 35, 185, - /, ????????, "MYSTIC WATER", 127, 20, 70, 3, 2, 2, "SWIFT SWIM", "SWIFT SWIM", 0, 131, 0
++#HOPPIP#, 35, 35, 40, 50, 35, 55, GRASS, FLYING, 160, 74, - /, ????????, ????????, 127, 20, 70, 3, 6, 7, CHLOROPHYLL, -------, 0, 9, 0
++#SKIPLOOM#, 55, 45, 50, 80, 45, 65, GRASS, FLYING, 100, 136, - /, ????????, ????????, 127, 20, 70, 3, 6, 7, CHLOROPHYLL, -------, 0, 3, 0
++#JUMPLUFF#, 75, 55, 70, 110, 55, 95, GRASS, FLYING, 35, 176, - /, ????????, ????????, 127, 20, 70, 3, 6, 7, CHLOROPHYLL, -------, 0, 1, 0
++#AIPOM#, 55, 70, 55, 85, 40, 55, NORMAL, NORMAL, 45, 94, - /, ????????, ????????, 127, 20, 70, 4, 5, 5, "VITAL SPIRIT", "OWN TEMPO", 0, 6, 0
++#SUNKERN#, 30, 30, 30, 30, 30, 30, GRASS, GRASS, 235, 52, - /, "SUN STONE", "SUN STONE", 127, 20, 70, 4, 7, 7, CHLOROPHYLL, -------, 0, 2, 0
++#SUNFLORA#, 75, 75, 55, 30, 105, 85, GRASS, GRASS, 120, 146, - /, "SUN STONE", "SUN STONE", 127, 20, 70, 4, 7, 7, CHLOROPHYLL, -------, 0, 2, 0
++#YANMA#, 65, 65, 45, 95, 75, 45, BUG, FLYING, 45, 147, - /, ????????, ????????, 127, 20, 70, 3, 3, 3, "SPEED BOOST", COMPOUNDEYES, 0, 0, 0
++#WOOPER#, 55, 45, 45, 15, 25, 25, WATER, GROUND, 90, 52, - /, ????????, ????????, 127, 20, 70, 5, 2, 5, "WATER ABSORB", OBLIVIOUS, 7, 1, 0
++#QUAGSIRE#, 95, 85, 85, 35, 65, 65, WATER, GROUND, 20, 137, - /, ????????, ????????, 127, 20, 70, 5, 2, 5, "WATER ABSORB", OBLIVIOUS, 5, 1, 0
++#ESPEON#, 65, 65, 60, 110, 130, 95, PSYCHC, PSYCHC, 25, 197, - /, ????????, ????????, 31, 35, 70, 5, 5, 5, SYNCHRONIZE, -------, 0, 6, 0
++#UMBREON#, 95, 65, 110, 65, 60, 130, DARK, DARK, 25, 197, - /, ????????, ????????, 31, 35, 35, 5, 5, 5, SYNCHRONIZE, -------, 0, 4, 0
++#MURKROW#, 60, 85, 42, 91, 85, 42, DARK, FLYING, 30, 107, - /, ????????, ????????, 127, 20, 35, 4, 4, 4, INSOMNIA, -------, 0, 4, 0
++#SLOWKING#, 95, 75, 80, 30, 100, 110, WATER, PSYCHC, 70, 164, - /, ????????, "KING'S ROCK", 127, 20, 70, 3, 1, 2, "NATURAL CURE", "OWN TEMPO", 0, 9, 0
++#MISDREAVUS#, 60, 60, 60, 105, 105, 105, GHOST, GHOST, 25, 147, - /, ????????, "SPELL TAG", 127, 25, 35, 5, 11, 11, LEVITATE, -------, 0, 7, 0
++#UNOWN#, 48, 72, 48, 48, 72, 48, PSYCHC, PSYCHC, 225, 61, - /, ????????, ????????, 255, 40, 70, 2, 15, 15, LEVITATE, -------, 0, 132, 0
++#WOBBUFFET#, 190, 33, 58, 33, 33, 58, PSYCHC, PSYCHC, 1, 177, - /, ????????, ????????, 127, 120, 70, 5, 11, 11, "SHADOW TAG", -------, 8, 1, 0
++#GIRAFARIG#, 70, 80, 65, 85, 90, 65, NORMAL, PSYCHC, 60, 149, - /, ????????, "PERSIM BERRY", 127, 20, 70, 0, 5, 5, "EARLY BIRD", "INNER FOCUS", 4, 2, 0
++#PINECO#, 50, 65, 90, 15, 35, 35, BUG, BUG, 190, 60, - /, ????????, ????????, 127, 20, 70, 5, 3, 3, "ROUGH SKIN", STURDY, 0, 7, 0
++#FORRETRESS#, 75, 90, 140, 40, 60, 60, BUG, STEEL, 75, 118, - /, ????????, ????????, 127, 20, 70, 5, 3, 3, "SHELL ARMOR", STURDY, 0, 6, 0
++#DUNSPARCE#, 100, 70, 70, 45, 65, 65, NORMAL, NORMAL, 25, 75, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, "SERENE GRACE", "RUN AWAY", 5, 2, 0
++#GLIGAR#, 65, 75, 105, 85, 35, 65, GROUND, FLYING, 60, 108, - /, ????????, ????????, 127, 20, 70, 3, 3, 3, "HYPER CUTTER", "SAND VEIL", 0, 6, 0
++#STEELIX#, 75, 85, 200, 30, 55, 65, STEEL, GROUND, 25, 196, - /, ????????, "METAL COAT", 127, 25, 70, 5, 10, 10, "ROCK HEAD", STURDY, 0, 7, 0
++#SNUBBULL#, 60, 80, 50, 30, 40, 40, NORMAL, NORMAL, 190, 63, - /, ????????, ????????, 191, 20, 70, 0, 5, 6, INTIMIDATE, "RUN AWAY", 0, 9, 0
++#GRANBULL#, 90, 120, 75, 45, 60, 60, NORMAL, NORMAL, 75, 178, - /, ????????, ????????, 191, 20, 70, 0, 5, 6, INTIMIDATE, INTIMIDATE, 0, 6, 0
++#QWILFISH#, 65, 95, 85, 85, 55, 55, WATER, POISON, 75, 100, - /, ????????, ????????, 127, 20, 70, 0, 12, 12, "SWIFT SWIM", "POISON POINT", 0, 7, 0
++#SCIZOR#, 70, 130, 100, 65, 55, 80, BUG, STEEL, 25, 200, - /, ????????, ????????, 127, 25, 70, 5, 3, 3, SWARM, -------, 0, 0, 0
++#SHUCKLE#, 50, 15, 230, 5, 5, 230, BUG, ROCK, 3, 80, - /, "ORAN BERRY", "ORAN BERRY", 127, 20, 70, 5, 3, 3, "SHELL ARMOR", STURDY, 0, 2, 0
++#HERACROSS#, 80, 125, 75, 85, 40, 95, BUG, FIGHT, 5, 200, - /, ????????, ????????, 127, 40, 70, 5, 3, 3, GUTS, SWARM, 8, 1, 0
++#SNEASEL#, 55, 95, 55, 115, 35, 75, DARK, ICE, 60, 132, - /, ????????, "QUICK CLAW", 127, 20, 35, 4, 5, 5, "INNER FOCUS", "KEEN EYE", 0, 132, 0
++#TEDDIURSA#, 60, 80, 50, 40, 50, 50, NORMAL, NORMAL, 120, 124, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, GUTS, -------, 0, 133, 0
++#URSARING#, 90, 130, 75, 55, 75, 75, NORMAL, NORMAL, 60, 189, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, GUTS, -------, 0, 5, 0
++#SLUGMA#, 40, 40, 40, 20, 70, 40, FIRE, FIRE, 190, 78, - /, "FIRE STONE", "FIRE STONE", 127, 20, 70, 4, 11, 11, "FLAME BODY", "MAGMA ARMOR", 0, 0, 0
++#MAGCARGO#, 60, 50, 120, 30, 90, 80, FIRE, ROCK, 75, 154, - /, ????????, ????????, 127, 20, 70, 4, 11, 11, "FLAME BODY", "FLAME BODY", 0, 0, 0
++#SWINUB#, 50, 50, 40, 50, 30, 30, ICE, GROUND, 225, 78, - /, ????????, ????????, 127, 20, 70, 5, 5, 5, OBLIVIOUS, OBLIVIOUS, 0, 5, 0
++#PILOSWINE#, 100, 100, 80, 60, 70, 60, ICE, GROUND, 75, 160, - /, ????????, ????????, 127, 20, 70, 5, 5, 5, "THICK FAT", OBLIVIOUS, 0, 5, 0
++#CORSOLA#, 65, 55, 95, 35, 65, 95, WATER, ROCK, 230, 113, - /, ????????, "RED SHARD", 191, 20, 70, 4, 2, 9, "NATURAL CURE", HUSTLE, 0, 9, 0
++#REMORAID#, 35, 65, 35, 65, 65, 35, WATER, WATER, 190, 78, - /, ????????, ????????, 127, 20, 70, 0, 2, 12, HUSTLE, -------, 0, 7, 0
++#OCTILLERY#, 75, 105, 75, 45, 105, 75, WATER, WATER, 75, 164, - /, ????????, ????????, 127, 20, 70, 0, 2, 12, "SUCTION CUPS", -------, 0, 0, 0
++#DELIBIRD#, 45, 55, 45, 75, 65, 45, ICE, FLYING, 255, 183, - /, ????????, ????????, 127, 20, 70, 4, 2, 5, "VITAL SPIRIT", HUSTLE, 0, 0, 0
++#MANTINE#, 85, 40, 70, 70, 80, 140, WATER, FLYING, 65, 168, - /, ????????, ????????, 127, 25, 70, 3, 2, 2, "SWIFT SWIM", "WATER VEIL", 0, 6, 0
++#SKARMORY#, 65, 80, 140, 70, 40, 70, STEEL, FLYING, 3, 168, - /, ????????, ????????, 127, 120, 70, 5, 4, 4, "KEEN EYE", STURDY, 0, 7, 0
++#HOUNDOUR#, 45, 60, 30, 65, 80, 50, DARK, FIRE, 120, 114, - /, ????????, ????????, 127, 80, 35, 5, 5, 5, "EARLY BIRD", "EARLY BIRD", 0, 4, 0
++#HOUNDOOM#, 75, 90, 50, 110, 130, 80, DARK, FIRE, 10, 204, - /, ????????, ????????, 127, 80, 35, 5, 5, 5, INTIMIDATE, "EARLY BIRD", 0, 4, 0
++#KINGDRA#, 75, 95, 95, 85, 95, 95, WATER, DRAGON, 5, 207, - /, ????????, "DRAGON SCALE", 127, 20, 70, 2, 2, 14, "SWIFT SWIM", -------, 0, 1, 0
++#PHANPY#, 90, 60, 60, 40, 40, 40, GROUND, GROUND, 120, 124, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, "CUTE CHARM", "CUTE CHARM", 10, 1, 0
++#DONPHAN#, 90, 120, 120, 50, 60, 60, GROUND, GROUND, 60, 189, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, "BATTLE ARMOR", STURDY, 0, 7, 0
++#PORYGON2#, 85, 80, 90, 60, 105, 95, NORMAL, NORMAL, 15, 180, - /, ????????, ????????, 255, 20, 70, 5, 10, 10, TRACE, -------, 0, 0, 0
++#STANTLER#, 73, 95, 62, 85, 85, 65, NORMAL, NORMAL, 45, 165, - /, ????????, ????????, 127, 20, 70, 0, 5, 5, INTIMIDATE, -------, 0, 5, 0
++#SMEARGLE#, 60, 60, 70, 75, 60, 70, NORMAL, NORMAL, 45, 106, - /, ????????, ????????, 127, 20, 70, 4, 5, 5, "OWN TEMPO", -------, 0, 8, 0
++#TYROGUE#, 35, 35, 35, 35, 35, 35, FIGHT, FIGHT, 75, 91, - /, ????????, ????????, 0, 25, 70, 0, 15, 15, GUTS, -------, 0, 6, 0
++#HITMONTOP#, 50, 95, 95, 70, 35, 110, FIGHT, FIGHT, 45, 138, - /, ????????, ????????, 0, 25, 70, 0, 8, 8, INTIMIDATE, -------, 0, 5, 0
++#SMOOCHUM#, 45, 30, 15, 65, 85, 65, ICE, PSYCHC, 45, 87, - /, "ASPEAR BERRY", "ASPEAR BERRY", 254, 25, 70, 3, 15, 15, OBLIVIOUS, -------, 0, 9, 0
++#ELEKID#, 45, 63, 37, 95, 65, 55, ELECTR, ELECTR, 45, 106, - /, ????????, ????????, 63, 25, 70, 3, 15, 15, STATIC, -------, 0, 130, 0
++#MAGBY#, 45, 75, 37, 83, 70, 55, FIRE, FIRE, 45, 117, - /, "RAWST BERRY", "RAWST BERRY", 63, 25, 70, 0, 15, 15, "FLAME BODY", -------, 0, 0, 0
++#MILTANK#, 95, 80, 105, 100, 40, 70, NORMAL, NORMAL, 10, 200, - /, "MOOMOO MILK", "MOOMOO MILK", 254, 20, 70, 5, 5, 5, "THICK FAT", -------, 8, 9, 0
++#BLISSEY#, 255, 5, 35, 55, 75, 115, NORMAL, NORMAL, 1, 1, - /, ????????, "LUCKY EGG", 254, 40, 255, 5, 6, 6, "NATURAL CURE", "SERENE GRACE", 0, 9, 0
++#RAIKOU#, 90, 85, 95, 115, 115, 100, ELECTR, ELECTR, 3, 216, - /, ????????, ????????, 255, 80, 35, 5, 15, 15, PRESSURE, -------, 0, 2, 0
++#ENTEI#, 115, 115, 85, 100, 110, 75, FIRE, FIRE, 3, 217, - /, ????????, ????????, 255, 80, 35, 5, 15, 15, PRESSURE, -------, 0, 5, 0
++#SUICUNE#, 120, 75, 115, 85, 90, 115, WATER, WATER, 3, 215, - /, ????????, ????????, 255, 80, 35, 5, 15, 15, PRESSURE, -------, 0, 1, 0
++#LARVITAR#, 50, 64, 50, 41, 45, 50, ROCK, GROUND, 3, 67, - /, ????????, ????????, 127, 40, 35, 5, 1, 1, GUTS, -------, 0, 3, 0
++#PUPITAR#, 70, 84, 70, 51, 65, 70, ROCK, GROUND, 2, 144, - /, ????????, ????????, 127, 40, 35, 5, 1, 1, "SHED SKIN", -------, 0, 7, 0
++#TYRANITAR#, 100, 134, 110, 61, 95, 100, ROCK, DARK, 1, 218, - /, ????????, ????????, 127, 40, 35, 5, 1, 1, INTIMIDATE, -------, 0, 3, 0
++#LUGIA#, 106, 90, 130, 110, 90, 154, PSYCHC, FLYING, 1, 220, - /, "LUM BERRY", "LUM BERRY", 255, 120, 0, 5, 15, 15, PRESSURE, "RUN AWAY", 0, 8, 0
++#HO-OH#, 106, 130, 90, 90, 110, 154, FIRE, FLYING, 1, 220, - /, "LUM BERRY", "LUM BERRY", 255, 120, 0, 5, 15, 15, PRESSURE, "RUN AWAY", 0, 0, 0
++#CELEBI#, 100, 100, 100, 100, 100, 100, PSYCHC, GRASS, 3, 64, - /, "LUM BERRY", "LUM BERRY", 255, 120, 100, 5, 15, 15, "NATURAL CURE", -------, 0, 3, 0
++#?#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~2#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~3#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~4#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~5#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~6#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~7#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~8#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~9#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~10#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~11#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~12#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~13#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~14#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~15#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~16#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~17#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~18#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~19#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~20#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~21#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~22#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~23#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~24#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#?~25#, 50, 150, 50, 150, 150, 50, NORMAL, NORMAL, 3, 1, - +2 HP +2 Attack +2 Defense +2 Speed +2 Sp Attack +2 Sp Defense /, ????????, ????????, 255, 120, 0, 0, 15, 15, -------, -------, 0, 4, 0
++#TREECKO#, 40, 45, 35, 70, 65, 55, GRASS, GRASS, 45, 65, - /, "ORAN BERRY", ????????, 31, 20, 70, 5, 1, 14, OVERGROW, -------, 0, 3, 0
++#GROVYLE#, 50, 65, 45, 95, 85, 65, GRASS, GRASS, 25, 141, - /, ????????, ????????, 31, 20, 70, 5, 1, 14, OVERGROW, -------, 0, 3, 0
++#SCEPTILE#, 70, 85, 65, 120, 105, 85, GRASS, GRASS, 10, 208, - /, ????????, ????????, 31, 20, 70, 5, 1, 14, OVERGROW, -------, 0, 3, 0
++#TORCHIC#, 45, 60, 40, 45, 70, 50, FIRE, FIRE, 45, 65, - /, "ORAN BERRY", ????????, 31, 20, 70, 5, 5, 5, "SPEED BOOST", BLAZE, 0, 0, 0
++#COMBUSKEN#, 60, 85, 60, 55, 85, 60, FIRE, FIGHT, 25, 142, - /, ????????, ????????, 31, 20, 70, 5, 5, 5, BLAZE, BLAZE, 0, 0, 0
++#BLAZIKEN#, 80, 120, 70, 80, 110, 70, FIRE, FIGHT, 10, 209, - /, ????????, ????????, 31, 20, 70, 5, 5, 5, BLAZE, BLAZE, 0, 0, 0
++#MUDKIP#, 50, 70, 50, 40, 50, 50, WATER, WATER, 45, 65, - /, "ORAN BERRY", ????????, 31, 20, 70, 5, 1, 2, TORRENT, TORRENT, 0, 1, 0
++#MARSHTOMP#, 70, 85, 70, 50, 60, 70, WATER, GROUND, 15, 143, - /, ????????, ????????, 31, 20, 70, 5, 1, 2, TORRENT, TORRENT, 0, 1, 0
++#SWAMPERT#, 100, 110, 90, 60, 85, 90, WATER, GROUND, 5, 210, - /, ????????, ????????, 31, 20, 70, 5, 1, 2, "SWIFT SWIM", TORRENT, 0, 1, 0
++#POOCHYENA#, 35, 55, 35, 35, 30, 30, DARK, DARK, 255, 55, - /, ????????, "PECHA BERRY", 127, 15, 70, 4, 5, 5, "RUN AWAY", -------, 0, 7, 0
++#MIGHTYENA#, 70, 90, 70, 70, 60, 60, DARK, DARK, 127, 128, - /, ????????, "PECHA BERRY", 127, 15, 70, 4, 5, 5, INTIMIDATE, -------, 0, 7, 0
++#ZIGZAGOON#, 38, 30, 41, 60, 30, 41, NORMAL, NORMAL, 255, 60, - /, "BERRY JUICE", "BERRY JUICE", 127, 15, 70, 3, 5, 5, GUTS, -------, 0, 5, 0
++#LINOONE#, 78, 70, 61, 100, 50, 61, NORMAL, NORMAL, 90, 128, - /, "ORAN BERRY", "SITRUS BERRY", 127, 15, 70, 3, 5, 5, GUTS, -------, 0, 8, 0
++#WURMPLE#, 45, 45, 35, 20, 20, 30, BUG, BUG, 255, 54, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, "SHIELD DUST", -------, 0, 0, 0
++#SILCOON#, 50, 35, 55, 15, 25, 25, BUG, BUG, 120, 71, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, "SHED SKIN", -------, 0, 8, 0
++#BEAUTIFLY#, 60, 70, 50, 65, 100, 50, BUG, FLYING, 45, 161, - /, ????????, SILVERPOWDER, 127, 15, 70, 4, 3, 3, SWARM, -------, 0, 2, 0
++#CASCOON#, 50, 35, 55, 15, 25, 25, BUG, BUG, 120, 72, - /, ????????, ????????, 127, 15, 70, 4, 3, 3, "SHED SKIN", -------, 0, 6, 0
++#DUSTOX#, 60, 50, 70, 65, 50, 90, BUG, POISON, 45, 160, - /, ????????, SILVERPOWDER, 127, 15, 70, 4, 3, 3, "SHIELD DUST", -------, 0, 3, 0
++#LOTAD#, 40, 30, 30, 30, 40, 50, WATER, GRASS, 45, 74, - /, ????????, ????????, 127, 15, 70, 5, 2, 7, "SWIFT SWIM", "RAIN DISH", 0, 3, 0
++#LOMBRE#, 60, 50, 50, 50, 60, 70, WATER, GRASS, 20, 141, - /, ????????, ????????, 127, 15, 70, 5, 2, 7, "SWIFT SWIM", "RAIN DISH", 0, 3, 0
++#LUDICOLO#, 80, 70, 70, 70, 90, 100, WATER, GRASS, 5, 181, - /, ????????, ????????, 127, 15, 70, 5, 2, 7, "SWIFT SWIM", "RAIN DISH", 0, 3, 0
++#SEEDOT#, 40, 40, 50, 30, 30, 30, GRASS, GRASS, 255, 74, - /, ????????, ????????, 127, 15, 70, 3, 5, 7, CHLOROPHYLL, "EARLY BIRD", 0, 5, 0
++#NUZLEAF#, 70, 70, 40, 60, 60, 40, GRASS, DARK, 120, 141, - /, ????????, ????????, 127, 15, 70, 3, 5, 7, CHLOROPHYLL, "EARLY BIRD", 0, 5, 0
++#SHIFTRY#, 90, 100, 60, 80, 90, 60, GRASS, DARK, 45, 181, - /, ????????, ????????, 127, 15, 70, 3, 5, 7, CHLOROPHYLL, "EARLY BIRD", 0, 5, 0
++#NINCADA#, 31, 45, 90, 40, 30, 30, BUG, GROUND, 7, 65, - /, ????????, ????????, 127, 15, 70, 5, 3, 3, COMPOUNDEYES, -------, 0, 7, 0
++#NINJASK#, 61, 90, 45, 160, 50, 50, BUG, FLYING, 7, 155, - /, ????????, ????????, 127, 15, 70, 5, 3, 3, "SPEED BOOST", -------, 0, 2, 0
++#SHEDINJA#, 1, 110, 35, 40, 30, 20, BUG, GHOST, 1, 95, - /, ????????, ????????, 255, 15, 70, 5, 10, 10, "WONDER GUARD", -------, 0, 5, 0
++#TAILLOW#, 40, 55, 30, 85, 30, 30, NORMAL, FLYING, 200, 59, - /, ????????, ????????, 127, 15, 70, 3, 4, 4, GUTS, -------, 0, 1, 0
++#SWELLOW#, 60, 85, 60, 125, 75, 50, NORMAL, FLYING, 45, 162, - /, ????????, ????????, 127, 15, 70, 3, 4, 4, GUTS, -------, 0, 1, 0
++#SHROOMISH#, 60, 40, 60, 35, 40, 60, GRASS, GRASS, 255, 65, - /, ????????, ????????, 127, 15, 70, 2, 6, 7, "EFFECT SPORE", -------, 0, 5, 0
++#BRELOOM#, 60, 130, 80, 70, 60, 60, GRASS, FIGHT, 90, 165, - /, ????????, ????????, 127, 15, 70, 2, 6, 7, "EFFECT SPORE", -------, 0, 3, 0
++#SPINDA#, 80, 80, 80, 80, 80, 80, NORMAL, NORMAL, 255, 85, - /, ????????, "CHESTO BERRY", 127, 15, 70, 4, 5, 8, "OWN TEMPO", -------, 0, 133, 0
++#WINGULL#, 40, 30, 30, 85, 55, 30, WATER, FLYING, 190, 64, - /, ????????, ????????, 127, 20, 70, 4, 2, 4, "KEEN EYE", "KEEN EYE", 0, 8, 0
++#PELIPPER#, 60, 50, 100, 65, 95, 70, WATER, FLYING, 45, 164, - /, ????????, ????????, 127, 20, 70, 4, 2, 4, "SWIFT SWIM", "KEEN EYE", 0, 2, 0
++#SURSKIT#, 40, 30, 32, 65, 50, 52, BUG, WATER, 200, 63, - /, ????????, ????????, 127, 15, 70, 0, 2, 3, "SWIFT SWIM", -------, 0, 1, 0
++#MASQUERAIN#, 70, 60, 62, 60, 100, 82, BUG, FLYING, 90, 128, - /, ????????, SILVERPOWDER, 127, 15, 70, 0, 2, 3, INTIMIDATE, -------, 0, 1, 0
++#WAILMER#, 130, 70, 35, 60, 70, 35, WATER, WATER, 2, 137, - /, ????????, ????????, 127, 40, 70, 2, 5, 12, PRESSURE, OBLIVIOUS, 0, 1, 0
++#WAILORD#, 160, 110, 64, 1, 110, 110, WATER, WATER, 1, 206, - /, ????????, ????????, 127, 40, 70, 2, 5, 12, PRESSURE, OBLIVIOUS, 100, 1, 0
++#SKITTY#, 50, 45, 45, 50, 35, 35, NORMAL, NORMAL, 255, 65, - /, "MOON STONE", "LEPPA BERRY", 191, 15, 70, 4, 5, 6, "CUTE CHARM", -------, 0, 9, 0
++#DELCATTY#, 70, 65, 65, 90, 55, 55, NORMAL, NORMAL, 60, 138, - /, ????????, "LEPPA BERRY", 191, 15, 70, 4, 5, 6, "CUTE CHARM", -------, 0, 6, 0
++#KECLEON#, 60, 90, 70, 40, 60, 120, NORMAL, NORMAL, 200, 132, - /, ????????, "PERSIM BERRY", 127, 20, 70, 4, 5, 5, "COLOR CHANGE", -------, 0, 3, 0
++#BALTOY#, 40, 40, 55, 55, 40, 70, GROUND, PSYCHC, 255, 58, - /, ????????, ????????, 255, 20, 70, 5, 10, 10, LEVITATE, -------, 0, 5, 0
++#CLAYDOL#, 60, 70, 105, 75, 70, 120, GROUND, PSYCHC, 90, 189, - /, ????????, ????????, 255, 20, 70, 5, 10, 10, LEVITATE, -------, 0, 4, 0
++#NOSEPASS#, 30, 45, 135, 30, 45, 90, ROCK, ROCK, 255, 108, - /, ????????, ????????, 127, 20, 70, 4, 10, 10, "BATTLE ARMOR", STURDY, 0, 7, 0
++#TORKOAL#, 70, 85, 140, 20, 85, 70, FIRE, FIRE, 90, 161, - /, ????????, ????????, 127, 20, 70, 0, 5, 5, "WHITE SMOKE", "SHELL ARMOR", 0, 5, 0
++#SABLEYE#, 95, 125, 125, 20, 65, 115, DARK, GHOST, 3, 98, - /, ????????, ????????, 127, 25, 35, 5, 8, 8, PRESSURE, -------, 0, 6, 0
++#BARBOACH#, 50, 48, 43, 60, 46, 41, WATER, GROUND, 190, 92, - /, ????????, ????????, 127, 20, 70, 0, 12, 12, OBLIVIOUS, OBLIVIOUS, 0, 7, 0
++#WHISCASH#, 110, 78, 73, 60, 76, 71, WATER, GROUND, 75, 158, - /, ????????, ????????, 127, 20, 70, 0, 12, 12, "SWIFT SWIM", OBLIVIOUS, 0, 1, 0
++#LUVDISC#, 43, 30, 55, 97, 40, 65, WATER, WATER, 225, 110, - /, ????????, ????????, 191, 20, 70, 4, 12, 12, "SWIFT SWIM", -------, 0, 9, 0
++#CORPHISH#, 43, 80, 65, 35, 50, 35, WATER, WATER, 235, 111, - /, ????????, ????????, 127, 15, 70, 4, 2, 9, "SHELL ARMOR", "HYPER CUTTER", 0, 0, 0
++#CRAWDAUNT#, 63, 120, 85, 55, 90, 55, WATER, DARK, 155, 161, - /, ????????, ????????, 127, 15, 70, 4, 2, 9, "SHELL ARMOR", "HYPER CUTTER", 0, 0, 0
++#FEEBAS#, 20, 15, 20, 80, 10, 55, WATER, WATER, 255, 61, - /, ????????, ????????, 127, 20, 70, 2, 2, 14, "SWIFT SWIM", "SWIFT SWIM", 0, 5, 0
++#MILOTIC#, 95, 60, 79, 81, 100, 125, WATER, WATER, 60, 213, - /, ????????, ????????, 127, 20, 70, 2, 2, 14, "SWIFT SWIM", "MARVEL SCALE", 0, 9, 0
++#CARVANHA#, 45, 90, 20, 65, 65, 20, WATER, DARK, 225, 88, - /, ????????, ????????, 127, 20, 35, 3, 12, 12, "ROUGH SKIN", -------, 0, 0, 0
++#SHARPEDO#, 70, 120, 40, 95, 95, 40, WATER, DARK, 60, 175, - /, ????????, ????????, 127, 20, 35, 3, 12, 12, "ROUGH SKIN", -------, 0, 1, 0
++#TRAPINCH#, 45, 100, 45, 10, 45, 45, GROUND, GROUND, 20, 73, - /, ????????, "SOFT SAND", 127, 20, 70, 5, 3, 3, "ARENA TRAP", "HYPER CUTTER", 0, 5, 0
++#VIBRAVA#, 50, 70, 50, 70, 50, 50, GROUND, DRAGON, 6, 126, - /, ????????, ????????, 127, 20, 70, 5, 3, 3, LEVITATE, LEVITATE, 20, 3, 0
++#FLYGON#, 80, 100, 80, 100, 80, 80, GROUND, DRAGON, 3, 197, - /, ????????, ????????, 127, 20, 70, 5, 3, 3, LEVITATE, LEVITATE, 15, 3, 0
++#MAKUHITA#, 72, 60, 30, 25, 20, 30, FIGHT, FIGHT, 180, 87, - /, ????????, ????????, 63, 20, 70, 3, 8, 8, "THICK FAT", GUTS, 0, 2, 0
++#HARIYAMA#, 144, 120, 60, 50, 40, 60, FIGHT, FIGHT, 200, 184, - /, ????????, "BLACK BELT", 63, 20, 70, 3, 8, 8, "THICK FAT", GUTS, 0, 5, 0
++#ELECTRIKE#, 40, 45, 40, 65, 65, 40, ELECTR, ELECTR, 120, 104, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, STATIC, LIGHTNINGROD, 0, 3, 0
++#MANECTRIC#, 70, 75, 60, 105, 105, 60, ELECTR, ELECTR, 45, 168, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, INTIMIDATE, LIGHTNINGROD, 0, 2, 0
++#NUMEL#, 60, 60, 40, 35, 65, 45, FIRE, GROUND, 255, 88, - /, "RAWST BERRY", "RAWST BERRY", 127, 20, 70, 0, 5, 5, OBLIVIOUS, -------, 0, 2, 0
++#CAMERUPT#, 70, 100, 70, 40, 105, 75, FIRE, GROUND, 150, 175, - /, "RAWST BERRY", "RAWST BERRY", 127, 20, 70, 0, 5, 5, "MAGMA ARMOR", -------, 0, 0, 0
++#SPHEAL#, 70, 40, 50, 25, 55, 50, ICE, WATER, 255, 75, - /, ????????, ????????, 127, 20, 70, 3, 2, 5, "THICK FAT", "THICK FAT", 0, 1, 0
++#SEALEO#, 90, 60, 70, 45, 75, 70, ICE, WATER, 120, 128, - /, ????????, ????????, 127, 20, 70, 3, 2, 5, "THICK FAT", "THICK FAT", 0, 1, 0
++#WALREIN#, 110, 80, 90, 65, 95, 90, ICE, WATER, 45, 192, - /, ????????, ????????, 127, 20, 70, 3, 2, 5, "RAIN DISH", "THICK FAT", 0, 1, 0
++#CACNEA#, 50, 85, 40, 35, 85, 40, GRASS, GRASS, 160, 97, - /, ????????, "POISON BARB", 127, 20, 35, 3, 7, 8, "SAND VEIL", -------, 0, 3, 0
++#CACTURNE#, 70, 115, 60, 55, 115, 60, GRASS, DARK, 60, 177, - /, ????????, "POISON BARB", 127, 20, 35, 3, 7, 8, "SAND VEIL", -------, 0, 3, 0
++#SNORUNT#, 50, 50, 50, 50, 50, 50, ICE, ICE, 190, 74, - /, ????????, ????????, 127, 20, 70, 3, 6, 10, "INNER FOCUS", "INNER FOCUS", 0, 7, 0
++#GLALIE#, 80, 100, 80, 100, 100, 80, ICE, ICE, 75, 187, - /, ????????, NEVERMELTICE, 127, 20, 70, 3, 6, 10, INTIMIDATE, "INNER FOCUS", 0, 7, 0
++#LUNATONE#, 90, 55, 65, 70, 95, 85, ROCK, PSYCHC, 25, 150, - /, ????????, "MOON STONE", 255, 25, 70, 5, 10, 10, LEVITATE, -------, 0, 2, 0
++#SOLROCK#, 90, 95, 85, 70, 55, 65, ROCK, PSYCHC, 25, 150, - /, ????????, "SUN STONE", 255, 25, 70, 5, 10, 10, LEVITATE, -------, 0, 0, 0
++#AZURILL#, 50, 20, 40, 20, 20, 40, NORMAL, NORMAL, 150, 33, - /, ????????, ????????, 191, 10, 35, 3, 15, 15, "HUGE POWER", "THICK FAT", 0, 1, 0
++#SPOINK#, 60, 25, 35, 60, 70, 80, PSYCHC, PSYCHC, 255, 89, - /, ????????, ????????, 127, 20, 70, 4, 5, 5, "THICK FAT", "OWN TEMPO", 0, 4, 0
++#GRUMPIG#, 80, 45, 65, 80, 90, 110, PSYCHC, PSYCHC, 60, 164, - /, ????????, ????????, 127, 20, 70, 4, 5, 5, "THICK FAT", "OWN TEMPO", 0, 6, 0
++#PLUSLE#, 60, 50, 40, 95, 85, 75, ELECTR, ELECTR, 200, 120, - /, ????????, ????????, 127, 20, 70, 4, 6, 6, PLUS, -------, 0, 2, 0
++#MINUN#, 60, 40, 50, 95, 75, 85, ELECTR, ELECTR, 200, 120, - /, ????????, ????????, 127, 20, 70, 4, 6, 6, MINUS, -------, 0, 2, 0
++#MAWILE#, 50, 85, 85, 50, 55, 55, STEEL, STEEL, 45, 98, - /, ????????, ????????, 127, 20, 70, 4, 5, 6, INTIMIDATE, "HYPER CUTTER", 0, 4, 0
++#MEDITITE#, 30, 40, 55, 60, 40, 55, FIGHT, PSYCHC, 80, 91, - /, ????????, ????????, 127, 20, 70, 5, 8, 8, "PURE POWER", -------, 0, 1, 0
++#MEDICHAM#, 60, 60, 75, 80, 60, 75, FIGHT, PSYCHC, 15, 153, - /, ????????, ????????, 127, 20, 70, 5, 8, 8, "PURE POWER", -------, 0, 0, 0
++#SWABLU#, 45, 40, 60, 50, 40, 75, NORMAL, FLYING, 255, 74, - /, ????????, ????????, 127, 20, 70, 0, 4, 14, "NATURAL CURE", -------, 0, 1, 0
++#ALTARIA#, 75, 70, 90, 80, 70, 105, DRAGON, FLYING, 45, 188, - /, ????????, ????????, 127, 20, 70, 0, 4, 14, "NATURAL CURE", -------, 0, 1, 0
++#WYNAUT#, 95, 23, 48, 23, 23, 48, PSYCHC, PSYCHC, 6, 44, - /, ????????, ????????, 127, 120, 70, 5, 15, 15, "SHADOW TAG", -------, 0, 1, 0
++#DUSKULL#, 20, 40, 90, 25, 30, 90, GHOST, GHOST, 45, 97, - /, ????????, "SPELL TAG", 127, 25, 35, 2, 11, 11, LEVITATE, LEVITATE, 0, 4, 0
++#DUSCLOPS#, 90, 100, 130, 25, 60, 130, GHOST, GHOST, 3, 179, - /, ????????, "SPELL TAG", 127, 25, 35, 2, 11, 11, PRESSURE, "KEEN EYE", 100, 4, 0
++#ROSELIA#, 50, 60, 45, 65, 100, 80, GRASS, POISON, 150, 152, - /, ????????, "POISON BARB", 127, 20, 70, 3, 6, 7, "NATURAL CURE", "POISON POINT", 0, 131, 0
++#SLAKOTH#, 60, 60, 60, 30, 35, 35, NORMAL, NORMAL, 65, 83, - /, ????????, ????????, 127, 15, 70, 5, 5, 5, TRUANT, -------, 0, 5, 0
++#VIGOROTH#, 80, 80, 80, 90, 55, 55, NORMAL, NORMAL, 35, 126, - /, ????????, ????????, 127, 15, 70, 5, 5, 5, "VITAL SPIRIT", -------, 0, 8, 0
++#SLAKING#, 150, 160, 100, 100, 95, 65, NORMAL, NORMAL, 3, 210, - /, ????????, ????????, 127, 15, 70, 5, 5, 5, TRUANT, -------, 0, 5, 0
++#GULPIN#, 70, 43, 53, 40, 43, 53, POISON, POISON, 225, 75, - /, ????????, "BIG PEARL", 127, 20, 70, 4, 11, 11, "LIQUID OOZE", "STICKY HOLD", 0, 3, 0
++#SWALOT#, 100, 73, 83, 55, 73, 83, POISON, POISON, 75, 168, - /, ????????, "BIG PEARL", 127, 20, 70, 4, 11, 11, "LIQUID OOZE", "STICKY HOLD", 0, 6, 0
++#TROPIUS#, 99, 68, 83, 51, 72, 87, GRASS, FLYING, 200, 169, - /, ????????, ????????, 127, 25, 70, 4, 1, 7, CHLOROPHYLL, -------, 0, 3, 0
++#WHISMUR#, 64, 51, 23, 28, 51, 23, NORMAL, NORMAL, 190, 68, - /, ????????, "CHESTO BERRY", 127, 20, 70, 0, 1, 5, "VITAL SPIRIT", -------, 0, 9, 0
++#LOUDRED#, 84, 71, 43, 48, 71, 43, NORMAL, NORMAL, 120, 126, - /, ????????, "CHESTO BERRY", 127, 20, 70, 0, 1, 5, "VITAL SPIRIT", -------, 0, 1, 0
++#EXPLOUD#, 104, 91, 63, 68, 91, 63, NORMAL, NORMAL, 45, 184, - /, ????????, "CHESTO BERRY", 127, 20, 70, 0, 1, 5, "VITAL SPIRIT", -------, 0, 1, 0
++#CLAMPERL#, 35, 64, 85, 32, 74, 55, WATER, WATER, 255, 142, - /, ????????, "BLUE SHARD", 127, 20, 70, 3, 2, 2, "SHELL ARMOR", -------, 0, 1, 0
++#HUNTAIL#, 55, 104, 105, 52, 94, 75, WATER, WATER, 60, 178, - /, ????????, ????????, 127, 20, 70, 3, 2, 2, "SWIFT SWIM", -------, 0, 1, 0
++#GOREBYSS#, 55, 84, 105, 52, 114, 75, WATER, WATER, 20, 178, - /, ????????, ????????, 127, 20, 70, 3, 2, 2, "SWIFT SWIM", -------, 0, 9, 0
++#ABSOL#, 65, 130, 60, 75, 75, 60, DARK, DARK, 30, 174, - /, ????????, ????????, 127, 25, 35, 3, 5, 5, PRESSURE, -------, 0, 136, 0
++#SHUPPET#, 44, 75, 35, 45, 63, 33, GHOST, GHOST, 190, 97, - /, ????????, "SPELL TAG", 127, 25, 35, 0, 11, 11, INSOMNIA, -------, 0, 4, 0
++#BANETTE#, 64, 115, 65, 65, 83, 63, GHOST, GHOST, 35, 179, - /, ????????, "SPELL TAG", 127, 25, 35, 0, 11, 11, INSOMNIA, -------, 0, 4, 0
++#SEVIPER#, 73, 100, 60, 65, 100, 60, POISON, POISON, 90, 165, - /, ????????, ????????, 127, 20, 70, 0, 5, 14, "SHED SKIN", -------, 0, 132, 0
++#ZANGOOSE#, 73, 115, 60, 90, 60, 60, NORMAL, NORMAL, 90, 165, - /, ????????, ????????, 127, 20, 70, 3, 5, 5, GUTS, IMMUNITY, 0, 136, 0
++#RELICANTH#, 100, 90, 130, 55, 45, 65, WATER, ROCK, 25, 198, - /, ????????, "GREEN SHARD", 31, 40, 70, 3, 2, 12, "ROCK HEAD", "SWIFT SWIM", 0, 7, 0
++#ARON#, 50, 70, 100, 30, 40, 40, STEEL, ROCK, 180, 96, - /, ????????, "HARD STONE", 127, 35, 35, 5, 1, 1, "ROCK HEAD", STURDY, 0, 7, 0
++#LAIRON#, 60, 90, 140, 40, 50, 50, STEEL, ROCK, 90, 152, - /, ????????, "HARD STONE", 127, 35, 35, 5, 1, 1, "ROCK HEAD", STURDY, 0, 7, 0
++#AGGRON#, 70, 110, 180, 50, 60, 60, STEEL, ROCK, 45, 205, - /, ????????, "HARD STONE", 127, 35, 35, 5, 1, 1, "ROCK HEAD", STURDY, 0, 7, 0
++#CASTFORM#, 75, 110, 75, 100, 110, 75, NORMAL, NORMAL, 45, 145, - /, "MYSTIC WATER", "MYSTIC WATER", 127, 25, 70, 5, 6, 11, FORECAST, -------, 0, 8, 0
++#VOLBEAT#, 65, 73, 75, 85, 47, 85, BUG, BUG, 150, 146, - /, "BERRY JUICE", "BERRY JUICE", 0, 15, 70, 4, 3, 8, SWARM, SWARM, 0, 7, 0
++#ILLUMISE#, 65, 47, 75, 85, 73, 85, BUG, BUG, 150, 146, - /, "BERRY JUICE", "BERRY JUICE", 254, 15, 70, 4, 3, 8, OBLIVIOUS, -------, 0, 6, 0
++#LILEEP#, 66, 41, 77, 23, 61, 87, ROCK, GRASS, 45, 121, - /, ????????, ????????, 31, 30, 70, 3, 9, 9, "SUCTION CUPS", -------, 0, 6, 0
++#CRADILY#, 86, 81, 97, 43, 81, 107, ROCK, GRASS, 25, 201, - /, ????????, ????????, 31, 30, 70, 3, 9, 9, "SUCTION CUPS", -------, 0, 3, 0
++#ANORITH#, 45, 95, 50, 75, 40, 50, ROCK, BUG, 45, 119, - /, ????????, ????????, 31, 30, 70, 4, 9, 9, "BATTLE ARMOR", -------, 0, 7, 0
++#ARMALDO#, 75, 125, 100, 45, 70, 80, ROCK, BUG, 25, 200, - /, ????????, ????????, 31, 30, 70, 4, 9, 9, "BATTLE ARMOR", -------, 0, 7, 0
++#RALTS#, 28, 25, 25, 40, 45, 35, PSYCHC, PSYCHC, 235, 70, - /, ????????, ????????, 127, 20, 35, 5, 11, 11, SYNCHRONIZE, SYNCHRONIZE, 0, 8, 0
++#KIRLIA#, 38, 35, 35, 50, 65, 55, PSYCHC, PSYCHC, 45, 140, - /, ????????, ????????, 127, 20, 35, 5, 11, 11, SYNCHRONIZE, SYNCHRONIZE, 0, 8, 0
++#GARDEVOIR#, 70, 65, 75, 90, 125, 115, PSYCHC, PSYCHC, 6, 208, - /, ????????, ????????, 127, 20, 35, 5, 11, 11, SYNCHRONIZE, TRACE, 0, 8, 0
++#BAGON#, 45, 75, 60, 50, 40, 30, DRAGON, DRAGON, 10, 89, - /, ????????, "DRAGON SCALE", 127, 40, 35, 5, 14, 14, "ROCK HEAD", -------, 0, 1, 0
++#SHELGON#, 65, 95, 100, 50, 60, 50, DRAGON, DRAGON, 4, 144, - /, ????????, "DRAGON SCALE", 127, 40, 35, 5, 14, 14, "ROCK HEAD", -------, 0, 8, 0
++#SALAMENCE#, 95, 135, 80, 100, 110, 80, DRAGON, FLYING, 2, 218, - /, ????????, "DRAGON SCALE", 127, 40, 35, 5, 14, 14, INTIMIDATE, -------, 0, 1, 0
++#BELDUM#, 40, 55, 80, 30, 35, 60, STEEL, PSYCHC, 9, 103, - /, ????????, "METAL COAT", 255, 40, 35, 5, 10, 10, "CLEAR BODY", -------, 0, 1, 0
++#METANG#, 60, 75, 100, 50, 55, 80, STEEL, PSYCHC, 3, 153, - /, ????????, "METAL COAT", 255, 40, 35, 5, 10, 10, "CLEAR BODY", -------, 0, 1, 0
++#METAGROSS#, 80, 135, 130, 70, 95, 90, STEEL, PSYCHC, 2, 210, - /, ????????, "METAL COAT", 255, 40, 35, 5, 10, 10, "CLEAR BODY", -------, 0, 1, 0
++#REGIROCK#, 80, 120, 200, 50, 50, 100, ROCK, ROCK, 3, 217, - /, "LUM BERRY", "LUM BERRY", 255, 80, 35, 2, 15, 15, "CLEAR BODY", -------, 0, 5, 0
++#REGICE#, 80, 50, 100, 50, 120, 200, ICE, ICE, 3, 216, - /, "LUM BERRY", "LUM BERRY", 255, 80, 35, 2, 15, 15, "CLEAR BODY", -------, 0, 1, 0
++#REGISTEEL#, 100, 75, 150, 50, 75, 150, STEEL, STEEL, 3, 215, - /, "LUM BERRY", "LUM BERRY", 255, 80, 35, 2, 15, 15, "CLEAR BODY", -------, 0, 7, 0
++#KYOGRE#, 100, 100, 90, 90, 150, 140, WATER, WATER, 1, 218, - /, "LUM BERRY", "LUM BERRY", 255, 120, 0, 5, 15, 15, PRESSURE, "RUN AWAY", 0, 1, 0
++#GROUDON#, 100, 150, 140, 90, 100, 90, GROUND, GROUND, 1, 218, - /, "LUM BERRY", "LUM BERRY", 255, 120, 0, 5, 15, 15, "ROCK HEAD", "RUN AWAY", 0, 0, 0
++#RAYQUAZA#, 105, 150, 90, 95, 150, 90, DRAGON, FLYING, 1, 255, - /, "LUM BERRY", "LUM BERRY", 255, 120, 0, 5, 15, 15, PRESSURE, "RUN AWAY", 255, 3, 0
++#LATIAS#, 80, 80, 90, 110, 110, 130, DRAGON, PSYCHC, 3, 211, - /, "LUM BERRY", "LUM BERRY", 254, 120, 90, 5, 15, 15, LEVITATE, -------, 0, 0, 0
++#LATIOS#, 80, 90, 80, 110, 130, 110, DRAGON, PSYCHC, 3, 211, - /, "LUM BERRY", "LUM BERRY", 0, 120, 90, 5, 15, 15, LEVITATE, -------, 0, 1, 0
++#JIRACHI#, 100, 100, 100, 100, 100, 100, STEEL, PSYCHC, 3, 215, - /, "LUM BERRY", "LUM BERRY", 255, 120, 100, 5, 15, 15, "SERENE GRACE", -------, 0, 2, 0
++#DEOXYS#, 50, 150, 50, 150, 150, 50, PSYCHC, PSYCHC, 3, 215, - /, "LUM BERRY", "LUM BERRY", 255, 120, 0, 5, 15, 15, PRESSURE, -------, 0, 128, 0
++#CHIMECHO#, 75, 50, 80, 65, 95, 90, PSYCHC, PSYCHC, 45, 147, - /, ????????, ????????, 127, 25, 70, 4, 11, 11, LEVITATE, -------, 0, 1, 0
